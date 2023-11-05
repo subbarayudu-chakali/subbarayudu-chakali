@@ -21,7 +21,6 @@ Header Image slot
 ![Java](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396)
 ![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
-<!--v![Kotlin](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396) -->
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 
 
@@ -41,8 +40,8 @@ Header Image slot
 ### Certificates
 * [AWS Certified Cloud Practitioner](https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url)
 * [AZ-900 Microsoft Azure Fundamentals](https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url)
-* [PL-900 Microsoft Power Platform Fundamentals](https//www.subbarayudu-chakali.com)
-* 
+* [PL-900 Microsoft Power Platform Fundamentals](https://www.subbarayudu-chakali.com)
+  
 
 
 
