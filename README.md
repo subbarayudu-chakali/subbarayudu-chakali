@@ -5,9 +5,10 @@ Header Image slot
 -->
 ### 🔨 I'm Currently ...
 ```yaml
-- Working as Software Engineer
-- Developing Self Service Portal for underwriters 
+- Working as Software Engineer in Chennai, India 
+- Developing Self Service Portal for underwriters
 - Preparing for AWS Certified Security - Specialty (SCS-C02) certification
+- Learning Generative AI, Prompt Engineering and Machine Learning
 ```
 
 <!--
