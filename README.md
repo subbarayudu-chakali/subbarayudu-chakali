@@ -3,19 +3,25 @@
 <!--
 Header Image slot
 -->
-- 🔨 𝙸'𝚖 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢...
+### 🔨 I'm Currently ...
 ```yaml
-- Working as SOftware Engineer
-- Developing Self Service portal for underwriters 
+- Working as Software Engineer
+- Developing Self Service Portal for underwriters 
 - Preparing for AWS Certified Security - Specialty (SCS-C02) certification
 ```
+
+<!--
+### Education
+### Experience
+### Projects -->
+
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
-![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![Java](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396)
+![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
+<!--v![Kotlin](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396) -->
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 
 
@@ -31,6 +37,15 @@ Header Image slot
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
+
+### Certificates
+* [AWS Certified Cloud Practitioner](https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url)
+* [AZ-900 Microsoft Azure Fundamentals](https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url)
+* [PL-900 Microsoft Power Platform Fundamentals](https//www.subbarayudu-chakali.com)
+* 
+
+
+
 
 ### WakaTime Metrics
 <!--
