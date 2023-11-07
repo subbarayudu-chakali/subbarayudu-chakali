@@ -11,10 +11,15 @@ Header Image slot
 - Learning Generative AI, Prompt Engineering and Machine Learning
 ```
 
-<!--
-### Education
-### Experience
-### Projects -->
+
+### My Experience Journey  
+Employer | Role | Duration | Skills | Location
+---------|------|----------|--------| --------
+Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI, AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India
+Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India 
+Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India  
+
+<!--### Projects -->
 
 ### Languages
 
@@ -43,10 +48,9 @@ Header Image slot
 * [AZ-900 Microsoft Azure Fundamentals](https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url)
 * [PL-900 Microsoft Power Platform Fundamentals](https://www.subbarayudu-chakali.com)
   
-
-
-
-
+<!--
+Contact Details
+-->
 ### WakaTime Metrics
 <!--
 Waatime metrics
