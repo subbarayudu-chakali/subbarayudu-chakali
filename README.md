@@ -1,5 +1,14 @@
 ### నమస్తే (Namaste) 🙏, My self Subbarayudu Chakali 
-
+<!--
+<pre>
+        N   N    AAA    M   M    AAA    SSSS   TTTTT   EEEEE     
+        NN  N   A   A   MM MM   A   A   S        T     E         
+        N N N   AAAAA   M M M   AAAAA    SSS     T     EEEE      
+        N  NN   A   A   M   M   A   A       S    T     E         
+        N   N   A   A   M   M   A   A   SSSS     T     EEEEE                                                             
+   
+</pre>
+-->
 <!--
 Header Image slot
 -->
