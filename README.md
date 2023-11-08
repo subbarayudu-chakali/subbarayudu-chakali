@@ -6,20 +6,19 @@
         N N N   AAAAA   M M M   AAAAA    SSS     T     EEEE
         N  NN   A   A   M   M   A   A       S    T     E
         N   N   A   A   M   M   A   A   SSSS     T     EEEEE                             
-   
 ```
 
 <!--
 Header Image slot
 -->
-### 🔨 I'm Currently ...
+### I'm Currently ...
+
 ```yaml
 - Working as Software Engineer in Chennai, India 
 - Developing Self Service Portal for underwriters
 - Preparing for AWS Certified Security - Specialty (SCS-C02) certification
 - Learning Generative AI, Prompt Engineering and Machine Learning
 ```
-
 
 ### My Experience Journey  
 
