@@ -1,5 +1,6 @@
-<!--### నమస్తే (Namaste) 🙏, My self Subbarayudu Chakali -->
-
+<!--### నమస్తే (Namaste) 🙏, My self Subbarayudu Chakali
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/subbarayudu-chakali/subbarayudu-chakali/stats.yml?logo=GitHub%20Actions)
+-->
 ```
         N   N    AAA    M   M    AAA    SSSS   TTTTT   EEEEE
         NN  N   A   A   MM MM   A   A   S        T     E
@@ -33,7 +34,7 @@ Header Image slot
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![Java](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396)
+![Java](https://img.shields.io/badge/-Java-000?&logo=Oracle&logoColor=007396)
 ![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
@@ -44,13 +45,65 @@ Header Image slot
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
+![Maven](https://img.shields.io/badge/-Maven-000?&logo=ApacheMaven)
+![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
+![Bamboo](https://img.shields.io/badge/-Bamboo-000?&logo=Bamboo)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
+![SonarQUbe](https://img.shields.io/badge/-SonarQUbe-000?&logo=Sonarqube)
+![Splunk](https://img.shields.io/badge/-Splunk-000?&logo=Splunk)
+![Postman](https://img.shields.io/badge/-Postman-000?&logo=Postman)
+![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=Mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=Postgresql)
+![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=Mongodb)
+![Slack](https://img.shields.io/badge/-Slack-000?&logo=Slack)
+![JIRA](https://img.shields.io/badge/-JIRA-000?&logo=JIRA)
+![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
+![Datadog](https://img.shields.io/badge/-Datadog-000?&logo=Datadog)
+![PowerBI](https://img.shields.io/badge/-PowerBI-000?&logo=PowerBI)
+![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
+![AdobeXD](https://img.shields.io/badge/-AdobeXD-000?&logo=AdobeXD)
+![Miro](https://img.shields.io/badge/-Miro-000?&logo=Miro)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?&logo=Bootstrap)
+![JSON](https://img.shields.io/badge/-Json-000?&logo=Json)
+![YAML](https://img.shields.io/badge/-Yaml-000?&logo=Yaml)
+![Swagger](https://img.shields.io/badge/-Swagger-000?&logo=Swagger)
+![OpenAI](https://img.shields.io/badge/-ChatGPT-000?&logo=OpenAI)
+![AWS CodeWhisperer](https://img.shields.io/badge/-CodeWhisperer-000?&logo=Amazon-AWS)
+![Streamlit](https://img.shields.io/badge/-Streamlit-000?&logo=Streamlit)
+![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)
+![IntelliJ](https://img.shields.io/badge/-IntelliJ-000?&logo=Jetbrains)
+![Visual Studio](https://img.shields.io/badge/-vscode-000?&logo=visualstudiocode)
+![PyCharm](https://img.shields.io/badge/-PyCharm-000?&logo=PyCharm)
+![Eclipse](https://img.shields.io/badge/-Eclipse-000?&logo=Eclipse)
+![Jupyter Notebook](https://img.shields.io/badge/-Jupytor-000?&logo=Jupyter)
+![Wireshark](https://img.shields.io/badge/-Wireshark-000?&logo=Wireshark)
+![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSONWebTokens)
+
+
+
+
+
+<!--
+Learning Resources and other skills
+Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Patterns/Architecture, Learning  tools, IDEs/Editors, include monitoring and security services in devsecops, AWS Services like sagemaker, IAM, CloudFormation, Lambda, RDS, DynamoDB, EC2, ECS, etc,.
+![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
+![MVC](https://img.shields.io/badge/-MVC-000?&logo=MVC)
+![Microservices](https://img.shields.io/badge/-MicroServices-000?&logo=Microservices)
+![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
+![MSLearn](https://img.shields.io/badge/-MSLearn-000?&logo=Microsoft)
+![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=Amazon-AWS)
+![Udemy](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
+
+-->
+
+
+<!--
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
+-->
 
 ### Certificates
 * [AWS Certified Cloud Practitioner](https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url)
@@ -136,5 +189,23 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 09/11/2023 00:46:11 UTC
+ Metrics Last Updated on 09/11/2023 00:46:11 UTC
 <!--END_SECTION:waka-->
+
+### Contact me 
+![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)
+![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)
+![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)
+![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)
+![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)
+![Whatsapp](https://img.shields.io/badge/-Whatsapp-000?&logo=Whatsapp)
+![Facebook](https://img.shields.io/badge/-Facebook-000?&logo=Facebook)
+![Snapchat](https://img.shields.io/badge/-Snapchat-000?&logo=Snapchat)
+![Telegram](https://img.shields.io/badge/-Telegram-000?&logo=Telegram)
+![Behance](https://img.shields.io/badge/-Behance-000?&logo=Behance)
+![Dribble](https://img.shields.io/badge/-Dribbble-000?&logo=Dribbble)
+![Pinterest](https://img.shields.io/badge/-Pinterest-000?&logo=Pinterest)
+
+
+
+
