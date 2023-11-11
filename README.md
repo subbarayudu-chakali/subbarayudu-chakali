@@ -29,7 +29,14 @@ Header Image slot
 | Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India |
 
-<!--### Projects -->
+<!--
+### Projects 
+- Intelligent Documents Processing
+- Datasets Generation (Text, CSV, JSON, Pdf)
+- Customized Foundation Models for Insurance industry
+- Software Bill Of Materials (SBOM) 
+-->
+
 
 ### Languages
 
