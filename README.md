@@ -200,18 +200,20 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 <!--END_SECTION:waka-->
 
 ### Contact me 
-![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)
+[![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)](mailto:csubbu141@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://in.linkedin.com/in/subbarayudu-chakali)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](https://gitHub.com/subbarayudu-chakali)
-![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)
+[![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)](https://Twitter.com/subbarayudu_c_)
 [![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](https://instagram.com/subbarayudu_chakali)
+[![Facebook](https://img.shields.io/badge/-Facebook-000?&logo=Facebook)](https://facebook.com/subbarayudu-chakali)
+<!--
 ![Whatsapp](https://img.shields.io/badge/-Whatsapp-000?&logo=Whatsapp)
-![Facebook](https://img.shields.io/badge/-Facebook-000?&logo=Facebook)
 ![Snapchat](https://img.shields.io/badge/-Snapchat-000?&logo=Snapchat)
 ![Telegram](https://img.shields.io/badge/-Telegram-000?&logo=Telegram)
 ![Behance](https://img.shields.io/badge/-Behance-000?&logo=Behance)
 ![Dribble](https://img.shields.io/badge/-Dribbble-000?&logo=Dribbble)
 ![Pinterest](https://img.shields.io/badge/-Pinterest-000?&logo=Pinterest)
+-->
 
 
 
