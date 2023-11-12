@@ -201,10 +201,10 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 ### Contact me 
 ![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](linkedin.com/subbarayudu-chakali)
-[![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](GitHub.com/subbarayudu-chakali)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://linkedin.com/subbarayudu-chakali)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](https://gitHub.com/subbarayudu-chakali)
 ![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)
-[![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](instagram.com/subbarayudu-chakali)
+[![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](https://instagram.com/subbarayudu-chakali)
 ![Whatsapp](https://img.shields.io/badge/-Whatsapp-000?&logo=Whatsapp)
 ![Facebook](https://img.shields.io/badge/-Facebook-000?&logo=Facebook)
 ![Snapchat](https://img.shields.io/badge/-Snapchat-000?&logo=Snapchat)
@@ -212,7 +212,6 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 ![Behance](https://img.shields.io/badge/-Behance-000?&logo=Behance)
 ![Dribble](https://img.shields.io/badge/-Dribbble-000?&logo=Dribbble)
 ![Pinterest](https://img.shields.io/badge/-Pinterest-000?&logo=Pinterest)
-[![Badge](https://img.shields.io/badge/Label-Message-brightgreen)](http://your-link-her
 
 
 
