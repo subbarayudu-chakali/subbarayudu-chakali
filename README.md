@@ -204,7 +204,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://linkedin.com/subbarayudu-chakali)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](https://gitHub.com/subbarayudu-chakali)
 ![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)
-[![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](https://instagram.com/subbarayudu-chakali)
+[![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](https://instagram.com/subbarayudu_chakali)
 ![Whatsapp](https://img.shields.io/badge/-Whatsapp-000?&logo=Whatsapp)
 ![Facebook](https://img.shields.io/badge/-Facebook-000?&logo=Facebook)
 ![Snapchat](https://img.shields.io/badge/-Snapchat-000?&logo=Snapchat)
