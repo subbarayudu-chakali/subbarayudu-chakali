@@ -201,7 +201,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 ### Contact me 
 ![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://linkedin.com/subbarayudu-chakali)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://in.linkedin.com/in/subbarayudu-chakali)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](https://gitHub.com/subbarayudu-chakali)
 ![Twitter](https://img.shields.io/badge/-Twitter-000?&logo=Twitter)
 [![Instagram](https://img.shields.io/badge/-Instagram-000?&logo=Instagram)](https://instagram.com/subbarayudu_chakali)
