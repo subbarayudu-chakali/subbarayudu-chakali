@@ -13,8 +13,6 @@
 Header Image slot
 -->
 
-`"Happy Diwali to you and your loved ones 🪔🎇"`
-
 ### I'm Currently ...
 
 ```yaml
