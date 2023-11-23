@@ -128,15 +128,15 @@ Waatime metrics
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-66%20hrs%2025%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-100-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-112-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.9%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.1%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 2.0 kB Used in GitHub's Storage 
  > 
-> 🏆 93 Contributions in the Year 2023
+> 🏆 106 Contributions in the Year 2023
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -144,47 +144,6 @@ Waatime metrics
  > 
 > 🔑 12 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                21 commits          █████░░░░░░░░░░░░░░░░░░░░   21.65 % 
-🌆 Daytime                20 commits          █████░░░░░░░░░░░░░░░░░░░░   20.62 % 
-🌃 Evening                46 commits          ████████████░░░░░░░░░░░░░   47.42 % 
-🌙 Night                  10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.31 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   13 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.40 % 
-Tuesday                  16 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.49 % 
-Wednesday                16 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.49 % 
-Thursday                 15 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
-Friday                   8 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
-Saturday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.15 % 
-Sunday                   24 commits          ██████░░░░░░░░░░░░░░░░░░░   24.74 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Python                   13 hrs 59 mins      ████████████████████████░   94.27 % 
-Text                     25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.88 % 
-JSON                     16 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.85 % 
-HTML                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
-Java                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 % 
-
-🔥 Editors: 
-PyCharm                  14 hrs 48 mins      █████████████████████████   99.80 % 
-IntelliJ                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 % 
-
-💻 Operating System: 
-Windows                  14 hrs 50 mins      █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in Java** 
 
 ```text
@@ -197,7 +156,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 22/11/2023 18:39:10 UTC
+ Last Updated on 23/11/2023 18:39:09 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
