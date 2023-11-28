@@ -19,14 +19,15 @@ Header Image slot
 - Working as Software Engineer in Chennai, India 
 - Developing Self Service Portal for underwriters
 - Preparing for AWS Certified Security - Specialty (SCS-C02) certification
-- Learning Generative AI, Prompt Engineering and Machine Learning
+- Learning Generative AI, Prompt Engineering and Machine Learning and
+- Ready to join forces with like-minded pros & make a positive impact 🤞😎.
 ```
 
 ### My Experience Journey  
 
 | Employer | Role | Duration | Skills | Location |
 ---------|------|----------|--------|-------------
-| Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI, AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
+| Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India |
 
@@ -36,6 +37,7 @@ Header Image slot
 - Datasets Generation (Text, CSV, JSON, Pdf)
 - Customized Foundation Models for Insurance industry
 - Software Bill Of Materials (SBOM) 
+- Automatic reports validation and analysis using AI 
 -->
 
 
@@ -48,8 +50,19 @@ Header Image slot
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 
 
-### Technologies
-
+### Tools & Technologies
+<!--
+```yaml
+- Programming Languages:
+- Front-End:
+- Back-End:
+- Databases:
+- DevSecOps:
+- Cloud Computing:
+- Machine Learning:
+- Data Analysis:
+```
+-->
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
@@ -67,10 +80,16 @@ Header Image slot
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=Postgresql)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=Mongodb)
 ![Slack](https://img.shields.io/badge/-Slack-000?&logo=Slack)
+![Remedy](https://img.shields.io/badge/-Remedy-000?&logo=BMCSoftware)
 ![JIRA](https://img.shields.io/badge/-JIRA-000?&logo=JIRA)
+![Confluence](https://img.shields.io/badge/-Confluence-000?&logo=Confluence)
 ![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
 ![Datadog](https://img.shields.io/badge/-Datadog-000?&logo=Datadog)
 ![PowerBI](https://img.shields.io/badge/-PowerBI-000?&logo=PowerBI)
+![PowerApps](https://img.shields.io/badge/-PowerApps-000?&logo=PowerApps)
+![PowerPages](https://img.shields.io/badge/-PowerPages-000?&logo=PowerPages)
+![Dataverse](https://img.shields.io/badge/-Dataverse-000?&logo=Dataverse)
+![PowerAutomate](https://img.shields.io/badge/-PowerAutomate-000?&logo=PowerAutomate)
 ![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![AdobeXD](https://img.shields.io/badge/-AdobeXD-000?&logo=AdobeXD)
 ![Miro](https://img.shields.io/badge/-Miro-000?&logo=Miro)
@@ -89,27 +108,27 @@ Header Image slot
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupytor-000?&logo=Jupyter)
 ![Wireshark](https://img.shields.io/badge/-Wireshark-000?&logo=Wireshark)
 ![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSONWebTokens)
-
-
-
-
+![GitHub Actions](https://img.shields.io/badge/-GitHubActions-000?&logo=GitHubActions)
+![OWASP](https://img.shields.io/badge/-OWASP-000?&logo=OWASP)
+![Office365](https://img.shields.io/badge/-Microsoft365-000?&logo=MicrosoftOffice)
+![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
+![JUnit5](https://img.shields.io/badge/-JUnit5-000?&logo=junit5)
+![Hibernate](https://img.shields.io/badge/-Hibernate-000?&logo=Hibernate)
+![GoogleCoLab](https://img.shields.io/badge/-GoogleCoLab-000?&logo=Google-CoLab)
+![MSLearn](https://img.shields.io/badge/-MSLearn-000?&logo=Microsoft)
+![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=Amazon-AWS)
+![Udemy](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
+![YouTube](https://img.shields.io/badge/-YouTube-000?&logo=YouTube)
 
 <!--
 Learning Resources and other skills
 Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Patterns/Architecture, Learning  tools, IDEs/Editors, include monitoring and security services in devsecops, AWS Services like sagemaker, IAM, CloudFormation, Lambda, RDS, DynamoDB, EC2, ECS, etc,.
-![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
-![MVC](https://img.shields.io/badge/-MVC-000?&logo=MVC)
-![Microservices](https://img.shields.io/badge/-MicroServices-000?&logo=Microservices)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
-![MSLearn](https://img.shields.io/badge/-MSLearn-000?&logo=Microsoft)
-![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=Amazon-AWS)
-![Udemy](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
-
 -->
 
 
 <!--
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
 -->
 
