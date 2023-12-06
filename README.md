@@ -13,22 +13,21 @@
 Header Image slot
 -->
 
-`"Happy Diwali to you and your loved ones 🪔🎇"`
-
 ### I'm Currently ...
 
 ```yaml
 - Working as Software Engineer in Chennai, India 
 - Developing Self Service Portal for underwriters
 - Preparing for AWS Certified Security - Specialty (SCS-C02) certification
-- Learning Generative AI, Prompt Engineering and Machine Learning
+- Learning Generative AI, Prompt Engineering and Machine Learning and
+- Ready to join forces with like-minded pros & make a positive impact 🤞😎.
 ```
 
 ### My Experience Journey  
 
 | Employer | Role | Duration | Skills | Location |
 ---------|------|----------|--------|-------------
-| Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI, AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
+| Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India |
 
@@ -38,6 +37,7 @@ Header Image slot
 - Datasets Generation (Text, CSV, JSON, Pdf)
 - Customized Foundation Models for Insurance industry
 - Software Bill Of Materials (SBOM) 
+- Automatic reports validation and analysis using AI 
 -->
 
 
@@ -50,8 +50,19 @@ Header Image slot
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 
 
-### Technologies
-
+### Tools & Technologies
+<!--
+```yaml
+- Programming Languages:
+- Front-End:
+- Back-End:
+- Databases:
+- DevSecOps:
+- Cloud Computing:
+- Machine Learning:
+- Data Analysis:
+```
+-->
 ![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
@@ -69,10 +80,16 @@ Header Image slot
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=Postgresql)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=Mongodb)
 ![Slack](https://img.shields.io/badge/-Slack-000?&logo=Slack)
+![Remedy](https://img.shields.io/badge/-Remedy-000?&logo=BMCSoftware)
 ![JIRA](https://img.shields.io/badge/-JIRA-000?&logo=JIRA)
+![Confluence](https://img.shields.io/badge/-Confluence-000?&logo=Confluence)
 ![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
 ![Datadog](https://img.shields.io/badge/-Datadog-000?&logo=Datadog)
 ![PowerBI](https://img.shields.io/badge/-PowerBI-000?&logo=PowerBI)
+![PowerApps](https://img.shields.io/badge/-PowerApps-000?&logo=PowerApps)
+![PowerPages](https://img.shields.io/badge/-PowerPages-000?&logo=PowerPages)
+![Dataverse](https://img.shields.io/badge/-Dataverse-000?&logo=Dataverse)
+![PowerAutomate](https://img.shields.io/badge/-PowerAutomate-000?&logo=PowerAutomate)
 ![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![AdobeXD](https://img.shields.io/badge/-AdobeXD-000?&logo=AdobeXD)
 ![Miro](https://img.shields.io/badge/-Miro-000?&logo=Miro)
@@ -91,27 +108,27 @@ Header Image slot
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupytor-000?&logo=Jupyter)
 ![Wireshark](https://img.shields.io/badge/-Wireshark-000?&logo=Wireshark)
 ![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSONWebTokens)
-
-
-
-
+![GitHub Actions](https://img.shields.io/badge/-GitHubActions-000?&logo=GitHubActions)
+![OWASP](https://img.shields.io/badge/-OWASP-000?&logo=OWASP)
+![Office365](https://img.shields.io/badge/-Microsoft365-000?&logo=MicrosoftOffice)
+![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
+![JUnit5](https://img.shields.io/badge/-JUnit5-000?&logo=junit5)
+![Hibernate](https://img.shields.io/badge/-Hibernate-000?&logo=Hibernate)
+![GoogleCoLab](https://img.shields.io/badge/-GoogleCoLab-000?&logo=Google-CoLab)
+![MSLearn](https://img.shields.io/badge/-MSLearn-000?&logo=Microsoft)
+![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=Amazon-AWS)
+![Udemy](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
+![YouTube](https://img.shields.io/badge/-YouTube-000?&logo=YouTube)
 
 <!--
 Learning Resources and other skills
 Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Patterns/Architecture, Learning  tools, IDEs/Editors, include monitoring and security services in devsecops, AWS Services like sagemaker, IAM, CloudFormation, Lambda, RDS, DynamoDB, EC2, ECS, etc,.
-![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
-![MVC](https://img.shields.io/badge/-MVC-000?&logo=MVC)
-![Microservices](https://img.shields.io/badge/-MicroServices-000?&logo=Microservices)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
-![MSLearn](https://img.shields.io/badge/-MSLearn-000?&logo=Microsoft)
-![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=Amazon-AWS)
-![Udemy](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
-
 -->
 
 
 <!--
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
 -->
 
@@ -128,42 +145,42 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-48%20hrs%2011%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-91%20hrs%2033%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-253-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-34-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.3%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-28.1%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 1.7 kB Used in GitHub's Storage 
+> 📦 2.5 kB Used in GitHub's Storage 
  > 
-> 🏆 85 Contributions in the Year 2023
+> 🏆 141 Contributions in the Year 2023
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 5 Public Repositories 
+> 📜 6 Public Repositories 
  > 
 > 🔑 12 Private Repositories 
  > 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                21 commits          ██████░░░░░░░░░░░░░░░░░░░   23.60 % 
-🌆 Daytime                18 commits          █████░░░░░░░░░░░░░░░░░░░░   20.22 % 
-🌃 Evening                40 commits          ███████████░░░░░░░░░░░░░░   44.94 % 
-🌙 Night                  10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.24 % 
+🌞 Morning                21 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.58 % 
+🌆 Daytime                42 commits          ███████░░░░░░░░░░░░░░░░░░   29.17 % 
+🌃 Evening                66 commits          ███████████░░░░░░░░░░░░░░   45.83 % 
+🌙 Night                  15 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.42 % 
 ```
-📅 **I'm Most Productive on Sunday** 
+📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   11 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
-Tuesday                  14 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.73 % 
-Wednesday                15 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.85 % 
-Thursday                 15 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.85 % 
-Friday                   8 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.99 % 
-Saturday                 4 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.49 % 
-Sunday                   22 commits          ██████░░░░░░░░░░░░░░░░░░░   24.72 % 
+Monday                   19 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.19 % 
+Tuesday                  20 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
+Wednesday                20 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
+Thursday                 35 commits          ██████░░░░░░░░░░░░░░░░░░░   24.31 % 
+Friday                   8 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
+Saturday                 17 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.81 % 
+Sunday                   25 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.36 % 
 ```
 
 
@@ -173,33 +190,32 @@ Sunday                   22 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   16 hrs 46 mins      ████████████████████████░   94.19 % 
-JSON                     38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.59 % 
-Text                     12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.16 % 
-GitIgnore file           7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
-Markdown                 3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 % 
+Python                   12 hrs 47 mins      ████████████████████████░   96.49 % 
+YAML                     26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 % 
+Markdown                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-PyCharm                  17 hrs 44 mins      █████████████████████████   99.66 % 
-IntelliJ                 3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 % 
+PyCharm                  13 hrs 15 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  17 hrs 48 mins      █████████████████████████   100.00 % 
+Windows                  13 hrs 15 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Java** 
 
 ```text
-Java                     9 repos             ███████████████░░░░░░░░░░   60.00 % 
-Python                   3 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-HTML                     2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
-Kotlin                   1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
+Java                     9 repos             █████████████░░░░░░░░░░░░   52.94 % 
+Python                   3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
+HTML                     3 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
+JavaScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
+Kotlin                   1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
 ```
 
 
 
 
- Last Updated on 14/11/2023 00:46:31 UTC
+ Last Updated on 05/12/2023 18:39:35 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
