@@ -145,7 +145,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-129%20hrs%2015%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-133%20hrs%2033%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-35-blue)
 
@@ -217,7 +217,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 15/12/2023 18:39:46 UTC
+ Last Updated on 16/12/2023 18:38:49 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
