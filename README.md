@@ -155,8 +155,6 @@ Waatime metrics
 
 > 📦 3.2 kB Used in GitHub's Storage 
  > 
-> 🏆 0 Contributions in the Year 2024
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 7 Public Repositories 
@@ -214,7 +212,7 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 01/01/2024 18:38:46 UTC
+ Last Updated on 02/01/2024 18:39:04 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
