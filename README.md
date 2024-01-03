@@ -145,7 +145,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-143%20hrs%2022%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-144%20hrs%2031%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -154,6 +154,8 @@ Waatime metrics
 **🐱 My GitHub Data** 
 
 > 📦 3.2 kB Used in GitHub's Storage 
+ > 
+> 🏆 0 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -188,15 +190,15 @@ Sunday                   30 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   50 mins             ███████████████████████░░   91.37 % 
-TOML                     4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.54 % 
-Batchfile                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
+Python                   1 hr 59 mins        ████████████████████████░   96.13 % 
+TOML                     4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 % 
+Batchfile                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
 
 🔥 Editors: 
-PyCharm                  55 mins             █████████████████████████   100.00 % 
+PyCharm                  2 hrs 4 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  55 mins             █████████████████████████   100.00 % 
+Windows                  2 hrs 4 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Java** 
@@ -212,7 +214,7 @@ Kotlin                   1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 02/01/2024 18:39:04 UTC
+ Last Updated on 03/01/2024 18:38:51 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
