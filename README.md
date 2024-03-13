@@ -1,13 +1,13 @@
 <!--### నమస్తే (Namaste) 🙏, My self Subbarayudu Chakali
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/subbarayudu-chakali/subbarayudu-chakali/stats.yml?logo=GitHub%20Actions)
 -->
-```
+<!-- ```
         N   N    AAA    M   M    AAA    SSSS   TTTTT   EEEEE
         NN  N   A   A   MM MM   A   A   S        T     E
         N N N   AAAAA   M M M   AAAAA    SSS     T     EEEE
         N  NN   A   A   M   M   A   A       S    T     E
         N   N   A   A   M   M   A   A   SSSS     T     EEEEE                             
-```
+``` -->
 
 <!--
 Header Image slot
@@ -48,6 +48,7 @@ Header Image slot
 ![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
+![Kotlin](https://img.shields.io/badge/-Kotlin-000?&logo=Kotlin)
 
 
 ### Tools & Technologies
