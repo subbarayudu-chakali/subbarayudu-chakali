@@ -146,7 +146,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-218%20hrs%2037%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-218%20hrs%2038%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -189,9 +189,9 @@ Sunday                   32 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   14 mins             █████████████████████████   99.99 % 
-Requirements.txt         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
-YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Python                   14 mins             █████████████████████████   99.96 % 
+YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
+Requirements.txt         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
 PyCharm                  14 mins             █████████████████████████   100.00 % 
@@ -212,7 +212,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 03/05/2024 18:39:32 UTC
+ Last Updated on 04/05/2024 18:38:31 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
