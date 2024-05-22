@@ -156,6 +156,8 @@ Waatime metrics
 
 > 📦 105.5 kB Used in GitHub's Storage 
  > 
+> 🏆 87 Contributions in the Year 2024
+ > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 3 Public Repositories 
@@ -210,7 +212,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 21/05/2024 18:39:43 UTC
+ Last Updated on 22/05/2024 18:40:17 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
