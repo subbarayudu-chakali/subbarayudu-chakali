@@ -27,7 +27,7 @@ Header Image slot
 
 | Employer | Role | Duration | Skills | Location |
 ---------|------|----------|--------|-------------
-| Cognizant | Product Specialist - Technical | January 2023 - Present (11 months) | Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
+| Cognizant | Product Specialist - Technical | January 2023 - Present | Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India |
 
