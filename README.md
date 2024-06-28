@@ -191,13 +191,13 @@ Sunday                   32 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-YAML                     0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-PyCharm                  0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -212,7 +212,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 27/06/2024 18:40:37 UTC
+ Last Updated on 28/06/2024 18:40:45 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
