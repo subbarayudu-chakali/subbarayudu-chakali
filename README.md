@@ -156,8 +156,6 @@ Waatime metrics
 
 > 📦 105.2 kB Used in GitHub's Storage 
  > 
-> 🏆 108 Contributions in the Year 2024
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 2 Public Repositories 
@@ -191,13 +189,13 @@ Sunday                   32 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+YAML                     0 secs              █████████████████████████   100.00 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+PyCharm                  0 secs              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  0 secs              █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -212,7 +210,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 11/07/2024 18:41:26 UTC
+ Last Updated on 12/07/2024 18:42:19 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
