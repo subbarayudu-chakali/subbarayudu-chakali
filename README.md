@@ -146,6 +146,8 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-224%20hrs%2058%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-12.7%20thousand%20lines%20of%20code-blue)
@@ -154,14 +156,48 @@ Waatime metrics
 
 > 📦 105.2 kB Used in GitHub's Storage 
  > 
-> 🏆 108 Contributions in the Year 2024
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 2 Public Repositories 
  > 
 > 🔑 6 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                30 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.63 % 
+🌆 Daytime                65 commits          ██████░░░░░░░░░░░░░░░░░░░   25.19 % 
+🌃 Evening                69 commits          ███████░░░░░░░░░░░░░░░░░░   26.74 % 
+🌙 Night                  94 commits          █████████░░░░░░░░░░░░░░░░   36.43 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   58 commits          ██████░░░░░░░░░░░░░░░░░░░   22.48 % 
+Tuesday                  35 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
+Wednesday                42 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
+Thursday                 57 commits          ██████░░░░░░░░░░░░░░░░░░░   22.09 % 
+Friday                   8 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
+Saturday                 26 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.08 % 
+Sunday                   32 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.40 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -174,7 +210,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 08/09/2024 18:42:07 UTC
+ Last Updated on 09/09/2024 18:43:58 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
