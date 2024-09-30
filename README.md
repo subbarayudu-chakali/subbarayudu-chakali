@@ -146,7 +146,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-226%20hrs%205%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-228%20hrs%202%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -155,6 +155,8 @@ Waatime metrics
 **🐱 My GitHub Data** 
 
 > 📦 105.2 kB Used in GitHub's Storage 
+ > 
+> 🏆 108 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -212,7 +214,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 29/09/2024 18:43:20 UTC
+ Last Updated on 30/09/2024 18:46:12 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
