@@ -146,7 +146,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-228%20hrs%202%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-228%20hrs%205%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -155,8 +155,6 @@ Waatime metrics
 **🐱 My GitHub Data** 
 
 > 📦 105.2 kB Used in GitHub's Storage 
- > 
-> 🏆 108 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -191,15 +189,15 @@ Sunday                   32 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Python                   2 hrs 2 mins        ████████████████████████░   94.46 % 
-GitIgnore file           4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.35 % 
-TOML                     2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.19 % 
+Python                   2 hrs 5 mins        ████████████████████████░   94.59 % 
+GitIgnore file           4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
+TOML                     2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.15 % 
 
 🔥 Editors: 
-PyCharm                  2 hrs 9 mins        █████████████████████████   100.00 % 
+PyCharm                  2 hrs 13 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  2 hrs 9 mins        █████████████████████████   100.00 % 
+Windows                  2 hrs 13 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -214,7 +212,7 @@ CSS                      1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 30/09/2024 18:46:12 UTC
+ Last Updated on 01/10/2024 18:46:10 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
