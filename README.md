@@ -185,9 +185,9 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-238%20hrs%2052%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-239%20hrs%203%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-55-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-13.7%20thousand%20lines%20of%20code-blue)
 
@@ -228,17 +228,17 @@ Sunday                   32 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 2 hrs 13 mins       ██████████░░░░░░░░░░░░░░░   38.97 % 
-Python                   1 hr 26 mins        ██████░░░░░░░░░░░░░░░░░░░   25.33 % 
-JavaScript               1 hr 23 mins        ██████░░░░░░░░░░░░░░░░░░░   24.38 % 
-JSON                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
-Requirements.txt         8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.62 % 
+Markdown                 2 hrs 13 mins       █████████░░░░░░░░░░░░░░░░   37.85 % 
+JavaScript               1 hr 28 mins        ██████░░░░░░░░░░░░░░░░░░░   25.26 % 
+Python                   1 hr 26 mins        ██████░░░░░░░░░░░░░░░░░░░   24.59 % 
+JSON                     22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.49 % 
+Requirements.txt         8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.45 % 
 
 🔥 Editors: 
-PyCharm                  5 hrs 41 mins       █████████████████████████   100.00 % 
+PyCharm                  5 hrs 52 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  5 hrs 41 mins       █████████████████████████   100.00 % 
+Windows                  5 hrs 52 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -253,7 +253,7 @@ CSS                      1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 18/12/2024 18:47:47 UTC
+ Last Updated on 19/12/2024 18:44:17 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
