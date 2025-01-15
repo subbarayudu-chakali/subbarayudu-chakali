@@ -195,8 +195,6 @@ Waatime metrics
 
 > 📦 265.1 kB Used in GitHub's Storage 
  > 
-> 🏆 69 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 2 Public Repositories 
@@ -256,7 +254,7 @@ Java                     1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 14/01/2025 18:43:55 UTC
+ Last Updated on 15/01/2025 18:43:23 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
