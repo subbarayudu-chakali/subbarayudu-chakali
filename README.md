@@ -185,15 +185,17 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-276%20hrs%2021%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-276%20hrs%2025%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-23-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-82.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 298.7 kB Used in GitHub's Storage 
+ > 
+> 🏆 113 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -228,17 +230,17 @@ Sunday                   66 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-JSON                     1 hr 57 mins        ██████████░░░░░░░░░░░░░░░   40.44 % 
-Python                   1 hr 21 mins        ███████░░░░░░░░░░░░░░░░░░   28.05 % 
-YAML                     50 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.49 % 
-JavaScript               24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.58 % 
-Markdown                 10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 % 
+JSON                     1 hr 57 mins        ██████████░░░░░░░░░░░░░░░   39.93 % 
+Python                   1 hr 21 mins        ███████░░░░░░░░░░░░░░░░░░   27.70 % 
+YAML                     50 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.27 % 
+JavaScript               28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.74 % 
+Markdown                 10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.66 % 
 
 🔥 Editors: 
-VS Code                  4 hrs 49 mins       █████████████████████████   100.00 % 
+VS Code                  4 hrs 53 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  4 hrs 49 mins       █████████████████████████   100.00 % 
+Windows                  4 hrs 53 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -254,7 +256,7 @@ Java                     1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 25/01/2025 18:41:46 UTC
+ Last Updated on 26/01/2025 18:42:40 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me 
