@@ -1,19 +1,4 @@
-<!--### నమస్తే (Namaste) 🙏, My self Subbarayudu Chakali
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/subbarayudu-chakali/subbarayudu-chakali/stats.yml?logo=GitHub%20Actions)
--->
-<!-- ```
-        N   N    AAA    M   M    AAA    SSSS   TTTTT   EEEEE
-        NN  N   A   A   MM MM   A   A   S        T     E
-        N N N   AAAAA   M M M   AAAAA    SSS     T     EEEE
-        N  NN   A   A   M   M   A   A       S    T     E
-        N   N   A   A   M   M   A   A   SSSS     T     EEEEE                             
-``` -->
-
-<!--
-Header Image slot
--->
-
-### I'm Currently ...
+### I'm Currently
 
 ```yaml
 - Working as Software Engineer in Chennai, India 
@@ -21,15 +6,14 @@ Header Image slot
 - Learning Generative AI, Prompt Engineering and Machine Learning 
 ```
 
-
 <!--
 ### Resume[View My Resume](./resources/subbarayudu-chakali-resume.pdf)
 <iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe>
--->
+ -->
 ### My Experience Journey  
 
 | Employer | Role | Duration | Skills | Location |
----------|------|----------|--------|-------------
+|---------|------|----------|--------|-------------|
 | Cognizant | Product Specialist - Technical | January 2023 - Present | Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst | January 2022  December 2023 (1 year) | Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain, | Chennai, Tamil Nadu, India |
 | Cognizant | Programmer Analyst Trainee | January 2021 - December 2021 (1 year) | Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC | Chennai, Tamil Nadu, India |
@@ -43,7 +27,6 @@ Header Image slot
 - Automatic reports validation and analysis using AI 
 -->
 
-
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
@@ -52,12 +35,14 @@ Header Image slot
 ![Kotlin](https://img.shields.io/badge/-Kotlin-000?&logo=Kotlin)
 
 ### Databases
+
 ![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=Mysql)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=Postgresql)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=Mongodb)
 ![DynamoDb](https://img.shields.io/badge/-DynamoDB-000?&logo=AmazonDynamoDB)
 
 ### DevSecOps
+
 ![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
 ![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)
 ![Maven](https://img.shields.io/badge/-Maven-000?&logo=ApacheMaven)
@@ -83,18 +68,21 @@ Header Image slot
 ![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSONWebTokens)
 
 ### Platforms and Frameworks
+
 ![amazon-web-services](https://img.shields.io/badge/-AWS-000?&logo=amazon-web-services)
 ![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
 ![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?&logo=Bootstrap)
 
-### User Interface 
+### User Interface
+
 ![Figma](https://img.shields.io/badge/-Figma-000?&logo=Figma)
 ![AdobeXD](https://img.shields.io/badge/-AdobeXD-000?&logo=AdobeXD)
 ![Miro](https://img.shields.io/badge/-Miro-000?&logo=Miro)
 
 ### IDE/Editors
+
 ![IntelliJ](https://img.shields.io/badge/-IntelliJ-000?&logo=Jetbrains)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000?&logo=PyCharm)
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupytor-000?&logo=Jupyter)
@@ -115,6 +103,7 @@ Header Image slot
 ```
 -->
 ### Other Tools
+
 ![Postman](https://img.shields.io/badge/-Postman-000?&logo=Postman)
 ![Slack](https://img.shields.io/badge/-Slack-000?&logo=Slack)
 ![Remedy](https://img.shields.io/badge/-Remedy-000?&logo=BMCSoftware)
@@ -125,8 +114,8 @@ Header Image slot
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000?logo=githubcopilot)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-000?&logo=Streamlit)
 
-
 ### Platforms I use for my learning
+
 ![MSLearn](https://img.shields.io/badge/-Learn-000?&logo=MicrosoftOffice)
 ![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=amazon-web-services)
 ![Udemy Business](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
@@ -136,7 +125,6 @@ Header Image slot
 Learning Resources and other skills
 Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Patterns/Architecture, Learning  tools, IDEs/Editors, include monitoring and security services in devsecops, AWS Services like sagemaker, IAM, CloudFormation, Lambda, RDS, DynamoDB, EC2, ECS, etc,.
 -->
-
 
 <!--
 
@@ -157,13 +145,17 @@ Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Pa
 -->
 
 ### Certificates
+
 * [AWS Certified Cloud Practitioner](https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url)
 * [AWS Certified AI Practitioner Early Adopter](https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url)
 * [AZ-900 Microsoft Azure Fundamentals](https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url)
 * [PL-900 Microsoft Power Platform Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49)
 * [GitHub Foundations](https://www.credly.com/badges/41daf202-1db7-4654-bf87-182c052b76bf/public_url)
+* [GitHub Actions](https://www.credly.com/badges/f59dc4b7-5c7b-4f7d-8b7d-b216d1a96e9f/public_url)
+* [GitHub CoPilot](https://www.credly.com/badges/8b14c6b7-fc99-47b4-b5ef-c49da4e6a735/public_url)
 
 ### Badges
+
 <img src="resources/badges/aws-certified-ai-practitioner-early-adopter.png" alt="aws-certified-ai-practitioner-early-adopter" width="100" height="100">
 <img src="resources/badges/aws-knowledge-cloud-essentials.png" alt="aws-knowledge-cloud-essentials" width="100" height="100">
 <img src="resources/badges/aws-partner-generative-ai-essentials.png" alt="aws-partner-generative-ai-essentials" width="100" height="100">
@@ -175,7 +167,8 @@ Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Pa
 <img src="resources/badges/genai-fundamentals.png" alt="genai-fundamentals" width="100" height="100">
 <img src="resources/badges/project-pivot-fundamentals.png" alt="project-pivot-fundamentals" width="100" height="100">
 <img src="resources/badges/prompt-engineering-java.png" alt="prompt-engineering-java" width="100" height="100">
-
+<img src="resources\badges\Prompt Engineering.png" alt="pompt-engineering" width="100" height="100">
+<img src="resources\badges\site-reliability.png" alt="site-reliability-engineering" width="100" height="100">
 
 <!--
 Contact Details
@@ -191,17 +184,17 @@ Waatime metrics
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-13.2%20thousand%20lines%20of%20code-blue)
 
-**🐱 My GitHub Data** 
+**🐱 My GitHub Data**
 
-> 📦 105.3 kB Used in GitHub's Storage 
- > 
+> 📦 105.3 kB Used in GitHub's Storage
+ >
 > 🚫 Not Opted to Hire
- > 
-> 📜 2 Public Repositories 
- > 
-> 🔑 8 Private Repositories 
- > 
-**I'm a Night 🦉** 
+ >
+> 📜 2 Public Repositories
+ >
+> 🔑 8 Private Repositories
+ >
+**I'm a Night 🦉**
 
 ```text
 🌞 Morning                32 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.72 % 
@@ -209,7 +202,8 @@ Waatime metrics
 🌃 Evening                69 commits          ██████░░░░░░░░░░░░░░░░░░░   25.27 % 
 🌙 Night                  100 commits         █████████░░░░░░░░░░░░░░░░   36.63 % 
 ```
-📅 **I'm Most Productive on Thursday** 
+
+📅 **I'm Most Productive on Thursday**
 
 ```text
 Monday                   58 commits          █████░░░░░░░░░░░░░░░░░░░░   21.25 % 
@@ -221,8 +215,7 @@ Saturday                 26 commits          ██░░░░░░░░░�
 Sunday                   32 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.72 % 
 ```
 
-
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 🕑︎ Time Zone: Asia/Kolkata
@@ -242,7 +235,7 @@ IntelliJ IDEA            19 mins             ██░░░░░░░░░�
 Windows                  3 hrs 32 mins       █████████████████████████   100.00 % 
 ```
 
-**I Mostly Code in Python** 
+**I Mostly Code in Python**
 
 ```text
 Python                   5 repos             ████████████████░░░░░░░░░   62.50 % 
@@ -251,13 +244,11 @@ Java                     1 repo              ███░░░░░░░░�
 CSS                      1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
 ```
 
-
-
-
  Last Updated on 11/12/2024 18:49:32 UTC
 <!--END_SECTION:waka-->
 
-### Contact me 
+### Contact me
+
 [![Email](https://img.shields.io/badge/-Mail-000?&logo=GMail)](mailto:csubbu141@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?&logo=LinkedIn)](https://in.linkedin.com/in/subbarayudu-chakali)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)](https://gitHub.com/subbarayudu-chakali)
@@ -272,6 +263,3 @@ CSS                      1 repo              ███░░░░░░░░�
 ![Dribble](https://img.shields.io/badge/-Dribbble-000?&logo=Dribbble)
 ![Pinterest](https://img.shields.io/badge/-Pinterest-000?&logo=Pinterest)
 -->
-
-
-
