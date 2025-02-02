@@ -6,11 +6,10 @@
 - Learning Generative AI, Prompt Engineering and Machine Learning 
 ```
 
-
-### Resume[View My Resume](./resources/subbarayudu-chakali-resume.pdf)
-<iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe>
+### [View My Resume](./resources/subbarayudu-chakali-resume.pdf)
+<!-- <iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe> -->
  
-### My Experience Journey  
+### My Experience Journey
 
 | Employer | Role | Duration | Skills | Location |
 |---------|------|----------|--------|-------------|
@@ -30,9 +29,9 @@
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![Java](https://img.shields.io/badge/-Java-000?&logo=Oracle&logoColor=007396)
-![C](https://img.shields.io/badge/-C-000?&logo=C)
+![Java](https://img.shields.io/badge/-Java-000?&logo=Openjdk)
 ![Kotlin](https://img.shields.io/badge/-Kotlin-000?&logo=Kotlin)
+![C](https://img.shields.io/badge/-C-000?&logo=C)
 
 ### Databases
 
@@ -52,7 +51,6 @@
 ![GitLab CI](https://img.shields.io/badge/-GitLab-000?logo=gitlab)
 ![Jenkins](https://img.shields.io/badge/Jenkins-000?logo=jenkins)
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
 ![Datadog](https://img.shields.io/badge/-Datadog-000?&logo=Datadog)
 ![Splunk](https://img.shields.io/badge/-Splunk-000?&logo=Splunk)
 ![OWASP](https://img.shields.io/badge/-OWASP-000?&logo=OWASP)
@@ -87,7 +85,6 @@
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000?&logo=PyCharm)
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupytor-000?&logo=Jupyter)
 ![GoogleCoLab](https://img.shields.io/badge/-GoogleCoLab-000?&logo=Google-CoLab)
-![Notepad++](https://img.shields.io/badge/-Notepad++-000?&logo=notepad)
 ![Eclipse](https://img.shields.io/badge/-Eclipse-000?&logo=Eclipse)
 
 <!--
@@ -110,16 +107,16 @@
 ![JIRA](https://img.shields.io/badge/-JIRA-000?&logo=JIRA)
 ![Confluence](https://img.shields.io/badge/-Confluence-000?&logo=Confluence)
 ![OpenAI](https://img.shields.io/badge/-ChatGPT-000?&logo=OpenAI)
-![AWS CodeWhisperer](https://img.shields.io/badge/-CodeWhisperer-000?&logo=Amazon-AWS)
+![AWS CodeWhisperer](https://img.shields.io/badge/-CodeWhisperer-000?&logo=amazon-web-services)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000?logo=githubcopilot)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-000?&logo=Streamlit)
 
-### Platforms I use for my learning
+<!-- ### Platforms I use for my learning
 
-![MSLearn](https://img.shields.io/badge/-Learn-000?&logo=MicrosoftOffice)
+![MSLearn](https://img.shields.io/badge/-Learn-000?&logo=MicrosoftOffice365)
 ![SkillBuilder](https://img.shields.io/badge/-SkillBuilder-000?&logo=amazon-web-services)
 ![Udemy Business](https://img.shields.io/badge/-Udemy-000?&logo=Udemy)
-![YouTube](https://img.shields.io/badge/-YouTube-000?&logo=YouTube)
+![YouTube](https://img.shields.io/badge/-YouTube-000?&logo=YouTube) -->
 
 <!--
 Learning Resources and other skills
@@ -127,7 +124,7 @@ Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Pa
 -->
 
 <!--
-
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
 ![PowerBI](https://img.shields.io/badge/-PowerBI-000?&logo=power-bi)
 ![PowerApps](https://img.shields.io/badge/-PowerApps-000?&logo=Microsoft-PowerApps)
 ![PowerPages](https://img.shields.io/badge/-PowerPages-000?&logo=PowerPages)
