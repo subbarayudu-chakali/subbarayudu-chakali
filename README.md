@@ -6,10 +6,10 @@
 - Learning Generative AI, Prompt Engineering and Machine Learning 
 ```
 
-<!--
+
 ### Resume[View My Resume](./resources/subbarayudu-chakali-resume.pdf)
 <iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe>
- -->
+ 
 ### My Experience Journey  
 
 | Employer | Role | Duration | Skills | Location |
