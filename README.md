@@ -175,7 +175,9 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-300%20hrs%2051%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-86.1%20thousand%20lines%20of%20code-blue)
 
@@ -183,14 +185,52 @@ Waatime metrics
 
 > 📦 429.3 kB Used in GitHub's Storage 
  > 
-> 🏆 137 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 3 Public Repositories 
  > 
 > 🔑 10 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                58 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.30 % 
+🌆 Daytime                123 commits         ███████░░░░░░░░░░░░░░░░░░   28.21 % 
+🌃 Evening                103 commits         ██████░░░░░░░░░░░░░░░░░░░   23.62 % 
+🌙 Night                  152 commits         █████████░░░░░░░░░░░░░░░░   34.86 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   76 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
+Tuesday                  46 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.55 % 
+Wednesday                67 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.37 % 
+Thursday                 108 commits         ██████░░░░░░░░░░░░░░░░░░░   24.77 % 
+Friday                   24 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
+Saturday                 45 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
+Sunday                   70 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.06 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+Java                     5 hrs 47 mins       ████████████████████████░   95.96 % 
+Python                   11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.19 % 
+GitIgnore file           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
+XML                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 % 
+
+🔥 Editors: 
+IntelliJ IDEA            5 hrs 45 mins       ████████████████████████░   95.36 % 
+VS Code                  16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.64 % 
+
+💻 Operating System: 
+Windows                  6 hrs 1 min         █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -204,7 +244,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 15/02/2025 18:43:02 UTC
+ Last Updated on 16/02/2025 18:42:22 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
