@@ -175,7 +175,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-301%20hrs%2059%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-302%20hrs%2013%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -220,15 +220,13 @@ Sunday                   70 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Java                     5 hrs 40 mins       █████████████████████████   99.10 % 
-GitIgnore file           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.73 % 
-XML                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
+Java                     1 hr 32 mins        █████████████████████████   100.00 % 
 
 🔥 Editors: 
-IntelliJ IDEA            5 hrs 43 mins       █████████████████████████   100.00 % 
+IntelliJ IDEA            1 hr 32 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  5 hrs 43 mins       █████████████████████████   100.00 % 
+Windows                  1 hr 32 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -244,7 +242,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 18/02/2025 18:46:00 UTC
+ Last Updated on 19/02/2025 18:45:39 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
