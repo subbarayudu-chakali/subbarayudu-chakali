@@ -185,8 +185,6 @@ Waatime metrics
 
 > 📦 429.3 kB Used in GitHub's Storage 
  > 
-> 🏆 138 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 3 Public Repositories 
@@ -220,13 +218,13 @@ Sunday                   70 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Java                     0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-IntelliJ IDEA            0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -242,7 +240,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 03/03/2025 18:46:55 UTC
+ Last Updated on 04/03/2025 18:48:09 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
