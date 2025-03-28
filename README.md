@@ -175,6 +175,8 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%2010%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-83.5%20thousand%20lines%20of%20code-blue)
@@ -189,6 +191,42 @@ Waatime metrics
  > 
 > 🔑 10 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
+🌆 Daytime                125 commits         ███████░░░░░░░░░░░░░░░░░░   28.34 % 
+🌃 Evening                102 commits         ██████░░░░░░░░░░░░░░░░░░░   23.13 % 
+🌙 Night                  153 commits         █████████░░░░░░░░░░░░░░░░   34.69 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   77 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
+Tuesday                  47 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
+Wednesday                70 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.87 % 
+Thursday                 106 commits         ██████░░░░░░░░░░░░░░░░░░░   24.04 % 
+Friday                   25 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.67 % 
+Saturday                 45 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.20 % 
+Sunday                   71 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.10 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -202,7 +240,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 27/03/2025 18:48:09 UTC
+ Last Updated on 28/03/2025 18:49:52 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
