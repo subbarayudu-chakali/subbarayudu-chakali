@@ -175,7 +175,7 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%2010%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%2018%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -184,6 +184,8 @@ Waatime metrics
 **🐱 My GitHub Data** 
 
 > 📦 429.4 kB Used in GitHub's Storage 
+ > 
+> 🏆 144 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -218,13 +220,15 @@ Sunday                   71 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   8 mins              █████████████████████████   99.97 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
+TOML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+PyCharm                  8 mins              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  8 mins              █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -240,7 +244,7 @@ Kotlin                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 30/04/2025 18:49:23 UTC
+ Last Updated on 01/05/2025 18:49:45 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
