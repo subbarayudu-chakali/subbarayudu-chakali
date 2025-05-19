@@ -175,15 +175,15 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-311%20hrs%2033%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-313%20hrs%2016%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-97.6%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 429.4 kB Used in GitHub's Storage 
+> 📦 429.5 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -218,13 +218,17 @@ Sunday                   73 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Java                     7 mins              █████████████████████████   100.00 % 
+HTML                     41 mins             ██████████░░░░░░░░░░░░░░░   40.08 % 
+TypeScript               30 mins             ███████░░░░░░░░░░░░░░░░░░   29.66 % 
+CSS                      19 mins             █████░░░░░░░░░░░░░░░░░░░░   18.66 % 
+JSON                     6 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+Git Config               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
 
 🔥 Editors: 
-IntelliJ IDEA            7 mins              █████████████████████████   100.00 % 
+VS Code                  1 hr 43 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  7 mins              █████████████████████████   100.00 % 
+Windows                  1 hr 43 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -240,7 +244,7 @@ Jupyter Notebook         1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 18/05/2025 18:47:15 UTC
+ Last Updated on 19/05/2025 18:50:50 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
