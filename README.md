@@ -175,6 +175,8 @@ Contact Details
 Waatime metrics
 -->
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-314%20hrs%2038%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-97.7%20thousand%20lines%20of%20code-blue)
@@ -183,14 +185,48 @@ Waatime metrics
 
 > 📦 429.5 kB Used in GitHub's Storage 
  > 
-> 🏆 151 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 4 Public Repositories 
  > 
 > 🔑 11 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                61 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.68 % 
+🌆 Daytime                125 commits         ███████░░░░░░░░░░░░░░░░░░   28.03 % 
+🌃 Evening                107 commits         ██████░░░░░░░░░░░░░░░░░░░   23.99 % 
+🌙 Night                  153 commits         █████████░░░░░░░░░░░░░░░░   34.30 % 
+```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   77 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.26 % 
+Tuesday                  50 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.21 % 
+Wednesday                70 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.70 % 
+Thursday                 106 commits         ██████░░░░░░░░░░░░░░░░░░░   23.77 % 
+Friday                   25 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
+Saturday                 45 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.09 % 
+Sunday                   73 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.37 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+Python                   0 secs              █████████████████████████   100.00 % 
+
+🔥 Editors: 
+PyCharm                  0 secs              █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Windows                  0 secs              █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -204,7 +240,7 @@ Jupyter Notebook         1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 30/07/2025 18:56:47 UTC
+ Last Updated on 31/07/2025 18:56:46 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
