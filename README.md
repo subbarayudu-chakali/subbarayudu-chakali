@@ -183,7 +183,9 @@ Waatime metrics
 
 **🐱 My GitHub Data** 
 
-> 📦 429.5 kB Used in GitHub's Storage 
+> 📦 429.6 kB Used in GitHub's Storage 
+ > 
+> 🏆 151 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -218,13 +220,13 @@ Sunday                   73 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-JSON                     0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -240,7 +242,7 @@ Jupyter Notebook         1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 08/08/2025 18:53:28 UTC
+ Last Updated on 09/08/2025 18:51:50 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
