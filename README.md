@@ -220,13 +220,13 @@ Sunday                   73 commits          ████░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Terraform                3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -242,7 +242,7 @@ Java                     1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 16/10/2025 18:50:25 UTC
+ Last Updated on 17/10/2025 18:47:26 UTC
 <!--END_SECTION:waka-->
 
 ### Contact me
