@@ -37,22 +37,14 @@ jobs:
         run: |
           rm -rf public
           mkdir -p public/resources
-          cp -f resources/resume_subbarayudu_chakali_30-1-2026.pdf public/resources/resume.pdf
-          # Copy your existing root HTML into the publish folder
-          cp -f index.html public/index.html
-
-          # Optional: avoid 404 on the root URL by adding a tiny index page
-          cat > public/index.html <<'EOF'
-          <!doctype html>
-          <meta charset="utf-8" />
-          <title>Resume</title>
-          <a href="./resources/resume.pdf">Download resume (PDF)</a>
-          EOF
-
+         
+          # Convert README.md to HTML for GitHub Pages home
+          npx --yes marked@^12 README.md > public/index.html
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: .
           
       - name: Deploy to GitHub Pages
         id: deployment
