@@ -33,11 +33,25 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Prepare site (PDF only)
+        run: |
+          rm -rf public
+          mkdir -p public/resources
+          cp -f resources/resume_subbarayudu_chakali_30-1-2026.pdf public/resources/resume.pdf
+
+          # Optional: avoid 404 on the root URL by adding a tiny index page
+          cat > public/index.html <<'EOF'
+          <!doctype html>
+          <meta charset="utf-8" />
+          <title>Resume</title>
+          <a href="./resources/resume.pdf">Download resume (PDF)</a>
+          EOF
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: public
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
