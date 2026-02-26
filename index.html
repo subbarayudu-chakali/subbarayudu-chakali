@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Resume</title>
-    <!-- Optional: redirect immediately to your PDF -->
-    <!-- IMPORTANT: replace resume.pdf with your real file name -->
-    <meta http-equiv="refresh" content="0; url=resources/resume_subbarayudu_chakali_30-1-2026.pdf" />
+    <style>
+      html, body { height: 100%; margin: 0; }
+      .pdf { width: 100%; height: 100vh; border: 0; }
+    </style>
   </head>
   <body>
+    <!-- Displays the PDF directly -->
+    <iframe class="pdf" src="./resources/resume.pdf"></iframe>
+
+    <!-- Fallback download link (shown if iframe/PDF viewer is blocked) -->
     <p>
-      If you are not redirected,
-      <a href="resources/resume_subbarayudu_chakali_30-1-2026.pdf">open the resume PDF</a>.
+      If the PDF doesn't display:
+      <a href="./resources/resume.pdf">Download resume</a>
     </p>
   </body>
 </html>
