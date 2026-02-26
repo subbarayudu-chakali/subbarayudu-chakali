@@ -6,7 +6,7 @@
 - Learning Generative AI, Prompt Engineering and Machine Learning 
 ```
 
-### [View My Resume](./resources/subbarayudu_chakali_resume_30_1_2026.pdf)
+### [View My Resume](./resources/subbarayudu_chakali_resume_30-1-2026.pdf)
 <!-- <iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe> -->
  
 ### My Experience Journey
