@@ -6,7 +6,7 @@
 - Learning Generative AI, Prompt Engineering and Machine Learning 
 ```
 
-### [View My Resume](./resources/subbarayudu-chakali-resume.pdf)
+### [View My Resume](./resources/subbarayudu_chakali_resume_30_1_2026.pdf)
 <!-- <iframe src="./resources/subbarayudu-chakali-resume.pdf" width="500" height="400"></iframe> -->
  
 ### My Experience Journey
@@ -166,84 +166,6 @@ Separate the tools into: Front-End, DevOps, Backend, Databases, Cloud, Design Pa
 <img src="resources/badges/prompt-engineering-java.png" alt="prompt-engineering-java" width="100" height="100">
 <img src="resources\badges\Prompt Engineering.png" alt="pompt-engineering" width="100" height="100">
 <img src="resources\badges\site-reliability.png" alt="site-reliability-engineering" width="100" height="100">
-
-<!--
-Contact Details
--->
-### WakaTime Metrics
-<!--
-Waatime metrics
--->
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-326%20hrs%2029%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-99.3%20thousand%20lines%20of%20code-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 429.6 kB Used in GitHub's Storage 
- > 
-> 🏆 215 Contributions in the Year 2025
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 4 Public Repositories 
- > 
-> 🔑 13 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                63 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.40 % 
-🌆 Daytime                169 commits         ████████░░░░░░░░░░░░░░░░░   33.27 % 
-🌃 Evening                123 commits         ██████░░░░░░░░░░░░░░░░░░░   24.21 % 
-🌙 Night                  153 commits         ████████░░░░░░░░░░░░░░░░░   30.12 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   90 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.72 % 
-Tuesday                  50 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Wednesday                101 commits         █████░░░░░░░░░░░░░░░░░░░░   19.88 % 
-Thursday                 109 commits         █████░░░░░░░░░░░░░░░░░░░░   21.46 % 
-Friday                   40 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.87 % 
-Saturday                 45 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
-Sunday                   73 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.37 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   6 repos             ██████████░░░░░░░░░░░░░░░   40.00 % 
-JavaScript               3 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-HCL                      2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
-TypeScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-Java                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-```
-
-
-
-
- Last Updated on 03/12/2025 18:55:08 UTC
-<!--END_SECTION:waka-->
 
 ### Contact me
 
