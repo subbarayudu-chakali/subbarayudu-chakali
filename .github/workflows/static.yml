@@ -38,6 +38,8 @@ jobs:
           rm -rf public
           mkdir -p public/resources
           cp -f resources/resume_subbarayudu_chakali_30-1-2026.pdf public/resources/resume.pdf
+          # Copy your existing root HTML into the publish folder
+          cp -f index.html public/index.html
 
           # Optional: avoid 404 on the root URL by adding a tiny index page
           cat > public/index.html <<'EOF'
