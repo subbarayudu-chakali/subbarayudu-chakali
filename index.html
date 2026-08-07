@@ -115,6 +115,18 @@
     .cert { display: flex; align-items: center; gap: 12px; }
     .cert .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); flex: none; }
 
+    /* Work / Projects */
+    .work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+    .work-grid .card { display: flex; flex-direction: column; gap: 10px; }
+    .work-grid .p-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .work-grid .p-title { font-weight: 700; font-size: 1.05rem; }
+    .pill { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 10px; border-radius: 999px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #06121f; }
+    .work-grid .p-sub { color: var(--text-soft); font-size: 0.85rem; margin-top: -4px; }
+    .work-grid ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; }
+    .work-grid ul li { color: var(--text-soft); font-size: 0.92rem; }
+    .work-grid ul li::marker { color: var(--accent); }
+    .work-grid.span-full { grid-template-columns: 1fr; }
+
     /* Badges */
     .badge-grid { display: flex; flex-wrap: wrap; gap: 14px; }
     .badge-grid img { width: 92px; height: 92px; object-fit: contain; transition: transform .15s ease; }
@@ -135,6 +147,7 @@
       <div class="links">
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
         <a href="#certs">Certifications</a>
         <a href="#badges">Badges</a>
         <a href="#contact">Contact</a>
@@ -260,6 +273,77 @@
               <span class="tag">Streamlit</span>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2>Work &amp; Projects</h2>
+        <div class="work-grid">
+
+          <div class="card">
+            <div class="p-head">
+              <span class="p-title">RAGen — Conversational Chatbot</span>
+              <span class="pill">🏆 Hackathon 1st Runner-up</span>
+            </div>
+            <ul>
+              <li>Retrieval Augmented Generation (RAG) to improve response accuracy.</li>
+              <li>Personalized search results and responses for each user.</li>
+              <li>Enterprise connectors for varied data sources — SharePoint, OneDrive, Confluence, databases, websites.</li>
+              <li>Generative AI model for handling fallback intents.</li>
+              <li>Natural Language Understanding (NLU) and Automatic Speech Recognition (ASR) engines.</li>
+              <li>Scalability, version support, and continuous learning &amp; improvement.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="p-head">
+              <span class="p-title">NextGen IDP</span>
+              <span class="pill">GenAI · AWS</span>
+            </div>
+            <div class="p-sub">Intelligent Document Processing</div>
+            <ul>
+              <li>Layout-aware document classification model for native documents.</li>
+              <li>Used the Jurassic Ultra-v1 LLM from AI21 Labs to classify plaintext &amp; native docs.</li>
+              <li>PII data redaction and Human-in-the-Loop (HITL) workflow integration.</li>
+              <li>Data lake built on S3 &amp; DynamoDB.</li>
+              <li>Textract queries and Adapters (custom queries) used for Q&amp;A.</li>
+              <li>Chains, prompt templates, and document loaders from the LangChain framework.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="p-head">
+              <span class="p-title">AWS Account Migration</span>
+              <span class="pill">Cloud · IaC</span>
+            </div>
+            <div class="p-sub">Insurance Platform Services</div>
+            <ul>
+              <li>Migrated Insurance Platform Services from one AWS account to another.</li>
+              <li>Infrastructure recreation (IaC using CDK).</li>
+              <li>CNAME, Fargate, server certificates, and KMS keys.</li>
+              <li>S3 data transfer (~4k objects, ~5&nbsp;GB in production).</li>
+              <li>Cross-account access for SQS and the database.</li>
+              <li>Modified build and deployment pipelines.</li>
+              <li>Database migration — snapshotting, secrets sharing, replication, and restoration.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="p-head">
+              <span class="p-title">Use Cases Developed</span>
+            </div>
+            <ul>
+              <li>Fake News Classification using the Naïve Bayes machine-learning algorithm.</li>
+              <li>Audit Management System — full-stack application.</li>
+              <li>Tweet Application — full-stack application.</li>
+              <li>Test data generator — CSV files for machine-learning tasks.</li>
+              <li>Simple webpage using GitHub Actions, GitHub Pages, and AWS Route&nbsp;53 for a custom domain.</li>
+              <li>DevOps Foundation use case — full CI/CD workflow with freestyle &amp; pipeline jobs, SonarQube and JFrog integration.</li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </section>
