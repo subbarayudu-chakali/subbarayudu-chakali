@@ -103,6 +103,19 @@
 
     /* Hero */
     header.hero { padding: 72px 0 40px; }
+    .hero .container { display: flex; align-items: center; gap: 44px; }
+    .hero-text { flex: 1 1 auto; min-width: 0; }
+    .hero-photo { flex: none; }
+    .hero-photo img {
+      width: 250px; height: 250px; border-radius: 50%; object-fit: cover;
+      border: 4px solid var(--card); box-shadow: var(--shadow); background: var(--bg-soft);
+    }
+    @media (max-width: 760px) {
+      .hero .container { flex-direction: column-reverse; text-align: center; gap: 26px; }
+      .hero .now { display: inline-grid; text-align: left; }
+      .hero .cta { justify-content: center; }
+      .hero-photo img { width: 172px; height: 172px; }
+    }
     .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
     .hero .role { margin-top: 10px; font-size: clamp(1rem, 3vw, 1.3rem); color: var(--accent); font-weight: 600; }
     .hero p.lead { margin-top: 18px; max-width: 680px; color: var(--text-soft); font-size: 1.05rem; }
@@ -208,23 +221,29 @@
 
   <header class="hero">
     <div class="container">
-      <h1>Hi, I'm Subbarayudu Chakali 👋</h1>
-      <div class="role">Full Stack · DevSecOps · Multi-Cloud · Machine Learning</div>
-      <p class="lead">
-        Experienced polyglot Full Stack Engineer with 5+ years building and deploying enterprise
-        applications across multi-cloud platforms — especially Amazon Web Services (AWS) and
-        Google Cloud Platform (GCP). Actively using generative-AI tools like GitHub Copilot and
-        AWS CodeWhisperer to boost coding efficiency, with a growing interest in machine learning
-        and applying AI-driven insights to improve application functionality and performance.
-      </p>
-      <div class="now">
-        <div class="row"><span class="ic">💼</span> Product Specialist — Technical at Cognizant, based in India.</div>
-        <div class="row"><span class="ic">🎓</span> Pursuing M.Tech in Artificial Intelligence &amp; Machine Learning at BITS Pilani (WILP).</div>
-        <div class="row"><span class="ic">🌱</span> Learning Generative AI, Prompt Engineering and Machine Learning.</div>
+      <div class="hero-text">
+        <h1>Hi, I'm Subbarayudu Chakali 👋</h1>
+        <div class="role">Full Stack · DevSecOps · Multi-Cloud · Machine Learning</div>
+        <p class="lead">
+          Experienced polyglot Full Stack Engineer with 5+ years building and deploying enterprise
+          applications across multi-cloud platforms — especially Amazon Web Services (AWS) and
+          Google Cloud Platform (GCP). Actively using generative-AI tools like GitHub Copilot and
+          AWS CodeWhisperer to boost coding efficiency, with a growing interest in machine learning
+          and applying AI-driven insights to improve application functionality and performance.
+        </p>
+        <div class="now">
+          <div class="row"><span class="ic">💼</span> Product Specialist — Technical at Cognizant, based in India.</div>
+          <div class="row"><span class="ic">🎓</span> Pursuing M.Tech in Artificial Intelligence &amp; Machine Learning at BITS Pilani (WILP).</div>
+          <div class="row"><span class="ic">🌱</span> Learning Generative AI, Prompt Engineering and Machine Learning.</div>
+        </div>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="resources/resume_subbarayudu_chakali_30-1-2026.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
       </div>
-      <div class="cta">
-        <a class="btn btn-primary" href="#contact">Get in touch</a>
-        <a class="btn btn-ghost" href="resources/resume_subbarayudu_chakali_30-1-2026.pdf" target="_blank" rel="noopener">Download Resume</a>
+      <div class="hero-photo">
+        <img src="resources/profile.jpg" alt="Subbarayudu Chakali"
+             onerror="this.closest('.hero-photo').style.display='none'" />
       </div>
     </div>
   </header>
