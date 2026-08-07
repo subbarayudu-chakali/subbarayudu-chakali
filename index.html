@@ -173,10 +173,17 @@
     .edu .e-meta { color: var(--text-soft); font-size: 0.85rem; white-space: nowrap; }
     .edu .e-inst { color: var(--accent); font-size: 0.92rem; }
 
+    /* Highlights & Soft skills */
+    .softskills ul { list-style: none; display: grid; gap: 12px; }
+    .softskills li { display: flex; gap: 12px; align-items: flex-start; color: var(--text-soft); font-size: 0.95rem; }
+    .softskills li::before { content: "✓"; color: var(--accent); font-weight: 800; flex: none; line-height: 1.5; }
+    .softskills li b { color: var(--text); font-weight: 600; }
+
     /* Contact */
     .contact-links { display: flex; flex-wrap: wrap; gap: 12px; }
-    .contact-links a { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-weight: 500; font-size: 0.9rem; }
-    .contact-links a:hover { border-color: var(--accent); text-decoration: none; }
+    .contact-links a { display: inline-flex; align-items: center; gap: 9px; padding: 10px 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-weight: 500; font-size: 0.9rem; }
+    .contact-links a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+    .contact-links a svg { width: 18px; height: 18px; fill: currentColor; flex: none; }
 
     footer { padding: 40px 0 60px; text-align: center; color: var(--text-soft); font-size: 0.85rem; }
   </style>
@@ -217,7 +224,7 @@
       </div>
       <div class="cta">
         <a class="btn btn-primary" href="#contact">Get in touch</a>
-        <a class="btn btn-ghost" href="resources/resume_subbarayudu_chakali_30-1-2026.pdf" target="_blank" rel="noopener">Download résumé</a>
+        <a class="btn btn-ghost" href="resources/resume_subbarayudu_chakali_30-1-2026.pdf" target="_blank" rel="noopener">Download Resume</a>
       </div>
     </div>
   </header>
@@ -361,6 +368,22 @@
             <div class="tags">
               <span class="tag">Spring Boot</span><span class="tag">JUnit5</span>
               <span class="tag">Bootstrap</span><span class="tag">React</span>
+              <span class="tag">Serverless</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Tools</h3>
+            <div class="tags">
+              <span class="tag">Postman</span><span class="tag">Slack</span>
+              <span class="tag">Remedy</span><span class="tag">JIRA</span>
+              <span class="tag">Confluence</span><span class="tag">Streamlit</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>AI Assistants</h3>
+            <div class="tags">
+              <span class="tag">OpenAI</span><span class="tag">Claude</span>
+              <span class="tag">GitHub Copilot</span><span class="tag">AWS CodeWhisperer</span>
             </div>
           </div>
         </div>
@@ -389,10 +412,9 @@
 
           <div class="card">
             <div class="p-head">
-              <span class="p-title">NextGen IDP</span>
-              <span class="pill">GenAI · AWS</span>
+              <span class="p-title">Next Gen Intelligent Document Processing</span>
+              <span class="pill">🏆 Hackathon Winner</span>
             </div>
-            <div class="p-sub">Intelligent Document Processing</div>
             <ul>
               <li>Layout-aware document classification model for native documents.</li>
               <li>Used the Jurassic Ultra-v1 LLM from AI21 Labs to classify plaintext &amp; native docs.</li>
@@ -443,19 +465,13 @@
         <h2>Certifications</h2>
         <div class="card">
           <div class="certs">
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url" target="_blank" rel="noopener">AWS Certified Cloud Practitioner (CLF-C01)</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url" target="_blank" rel="noopener">AWS Certified AI Practitioner</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url" target="_blank" rel="noopener">Microsoft Certified: Azure Fundamentals (AZ-900)</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49" target="_blank" rel="noopener">Microsoft Certified: Power Platform Fundamentals (PL-900)</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url" target="_blank" rel="noopener">AWS Certified Cloud Practitioner</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url" target="_blank" rel="noopener">AWS Certified AI Practitioner Early Adopter</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url" target="_blank" rel="noopener">AZ-900 Microsoft Azure Fundamentals</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49" target="_blank" rel="noopener">PL-900 Microsoft Power Platform Fundamentals</a></div>
             <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/41daf202-1db7-4654-bf87-182c052b76bf/public_url" target="_blank" rel="noopener">GitHub Foundations</a></div>
             <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/f59dc4b7-5c7b-4f7d-8b7d-b216d1a96e9f/public_url" target="_blank" rel="noopener">GitHub Actions</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/8b14c6b7-fc99-47b4-b5ef-c49da4e6a735/public_url" target="_blank" rel="noopener">GitHub Copilot</a></div>
-            <div class="cert"><span class="dot"></span>AWS Knowledge: Cloud Essentials</div>
-            <div class="cert"><span class="dot"></span>AWS Partner: Generative AI Essentials</div>
-            <div class="cert"><span class="dot"></span>Certified GenAI Associate (Fundamentals)</div>
-            <div class="cert"><span class="dot"></span>Certified Java Prompt Developer — Prompt Engineering</div>
-            <div class="cert"><span class="dot"></span>AWS CodeWhisperer — AI-Assisted Code Companion</div>
-            <div class="cert"><span class="dot"></span>MongoDB SI Associate</div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/8b14c6b7-fc99-47b4-b5ef-c49da4e6a735/public_url" target="_blank" rel="noopener">GitHub CoPilot</a></div>
           </div>
         </div>
       </div>
@@ -520,6 +536,22 @@
       </div>
     </section>
 
+    <section id="highlights">
+      <div class="container">
+        <h2>Highlights &amp; Soft Skills</h2>
+        <div class="card softskills">
+          <ul>
+            <li><span><b>Won 1st prize at ASHV-2K19</b> (MITS, Madanapalli) for a presentation on “Making Recommendation Systems” — collaborative, item- and product-based filtering, ranking, and related concepts.</span></li>
+            <li><span><b>Won 1st prize at SIGMA-2K18</b> (SREC, Kurnool) for a presentation on the “Human in the Loop (HITL)” concept and its importance in AI &amp; ML systems.</span></li>
+            <li><span>Successfully managed a team during training, ensuring effective collaboration and achieving project goals.</span></li>
+            <li><span>Honed adaptability through volunteering (NSS, NCC, and Cognizant Outreach) — comfortable navigating new environments and diverse groups with confidence and flexibility.</span></li>
+            <li><span>Demonstrated strong problem-solving abilities, resolving complex challenges and ensuring defect-free delivery.</span></li>
+            <li><span>Exhibited meticulous attention to detail while managing sensitive tasks amid complex infrastructure challenges.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
       <div class="container">
         <h2>Contact me</h2>
@@ -527,14 +559,38 @@
           Ready to join forces with like-minded pros &amp; make a positive impact.
         </p>
         <div class="contact-links">
-          <a href="mailto:csubbu141@gmail.com">✉️ csubbu141@gmail.com</a>
-          <a href="tel:+916303605176">📞 +91 63036 05176</a>
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Jammalamadugu%2C+Kadapa%2C+Andhra+Pradesh" target="_blank" rel="noopener">📍 Jammalamadugu, Kadapa, AP</a>
-          <a href="https://in.linkedin.com/in/subbarayudu-chakali" target="_blank" rel="noopener">💼 LinkedIn</a>
-          <a href="https://github.com/subbarayudu-chakali" target="_blank" rel="noopener">🐙 GitHub</a>
-          <a href="https://twitter.com/subbarayudu_c_" target="_blank" rel="noopener">🐦 Twitter / X</a>
-          <a href="https://instagram.com/subbarayudu_chakali" target="_blank" rel="noopener">📸 Instagram</a>
-          <a href="https://www.facebook.com/profile.php?id=100024064763545" target="_blank" rel="noopener">👥 Facebook</a>
+          <a href="mailto:csubbu141@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            csubbu141@gmail.com
+          </a>
+          <a href="tel:+916303605176" aria-label="Phone">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            +91 63036 05176
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Jammalamadugu%2C+Kadapa%2C+Andhra+Pradesh" target="_blank" rel="noopener" aria-label="Location">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
+            Jammalamadugu, Kadapa, AP
+          </a>
+          <a href="https://in.linkedin.com/in/subbarayudu-chakali" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/subbarayudu-chakali" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.52 11.52 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://twitter.com/subbarayudu_c_" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z"/></svg>
+            X (Twitter)
+          </a>
+          <a href="https://instagram.com/subbarayudu_chakali" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100024064763545" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
         </div>
       </div>
     </section>
