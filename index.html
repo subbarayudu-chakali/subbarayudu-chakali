@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Subbarayudu Chakali — Software Engineer</title>
-  <meta name="description" content="Subbarayudu Chakali — Software Engineer in Chennai, India. Java, Python, Cloud (AWS/Azure) and AI/ML. M.Tech AI & ML, BITS Pilani." />
+  <title>Subbarayudu Chakali — Full Stack · DevSecOps · Multi-Cloud · ML</title>
+  <meta name="description" content="Subbarayudu Chakali — polyglot Full Stack Engineer with 5+ years across AWS & GCP, DevSecOps, and Machine Learning. Based in India." />
 
   <!-- Open Graph / social preview -->
-  <meta property="og:title" content="Subbarayudu Chakali — Software Engineer" />
-  <meta property="og:description" content="Software Engineer specializing in Java, Python, Cloud and AI/ML." />
+  <meta property="og:title" content="Subbarayudu Chakali — Full Stack · DevSecOps · Multi-Cloud · ML" />
+  <meta property="og:description" content="Polyglot Full Stack Engineer with 5+ years across AWS & GCP, DevSecOps and Machine Learning." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://subbarayudu-chakali.dev/" />
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <style>
+    /* ===== Palette from resources/colour-palette.png =====
+       #f7f8fb near-white · #15d888 green · #1d3d49 dark teal · #182d34 darkest teal */
     :root {
-      --bg: #0b0f19;
-      --bg-soft: #121826;
-      --card: #161d2e;
-      --border: #232c40;
-      --text: #e6ebf5;
-      --text-soft: #9aa6bf;
-      --accent: #6ea8fe;
-      --accent-2: #7ee0c0;
-      --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
       --radius: 16px;
+      --btn: #15d888;        /* brand green — same in both themes */
+      --btn-text: #06251a;   /* dark text on green button */
     }
 
-    @media (prefers-color-scheme: light) {
-      :root {
-        --bg: #f6f8fc;
-        --bg-soft: #ffffff;
-        --card: #ffffff;
-        --border: #e5e9f2;
-        --text: #1a2233;
-        --text-soft: #5a6684;
-        --accent: #2f6fed;
-        --accent-2: #12a37a;
-        --shadow: 0 10px 30px rgba(20, 30, 60, 0.08);
-      }
+    html[data-theme="dark"] {
+      --bg: #182d34;
+      --bg-soft: #16282e;
+      --card: #1d3d49;
+      --border: #2c505c;
+      --text: #f7f8fb;
+      --text-soft: #a7bcc5;
+      --accent: #2fe4a1;
+      --accent-2: #5ce0d0;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+      --pill-text: #06251a;
+    }
+
+    html[data-theme="light"] {
+      --bg: #f7f8fb;
+      --bg-soft: #eef1f6;
+      --card: #ffffff;
+      --border: #e2e8f0;
+      --text: #182d34;
+      --text-soft: #55666f;
+      --accent: #0c9d63;
+      --accent-2: #15d888;
+      --shadow: 0 10px 30px rgba(24, 45, 52, 0.08);
+      --pill-text: #06251a;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -53,12 +71,13 @@
       color: var(--text);
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      transition: background .25s ease, color .25s ease;
     }
 
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
-    .container { max-width: 940px; margin: 0 auto; padding: 0 20px; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
 
     /* Nav */
     nav {
@@ -69,24 +88,32 @@
     }
     nav .container { display: flex; align-items: center; justify-content: space-between; height: 62px; }
     nav .brand { font-weight: 800; letter-spacing: -0.02em; }
-    nav .links { display: flex; gap: 22px; }
-    nav .links a { color: var(--text-soft); font-size: 0.92rem; font-weight: 500; }
+    .nav-right { display: flex; align-items: center; gap: 18px; }
+    nav .links { display: flex; gap: 20px; }
+    nav .links a { color: var(--text-soft); font-size: 0.9rem; font-weight: 500; }
     nav .links a:hover { color: var(--text); text-decoration: none; }
-    @media (max-width: 680px) { nav .links { display: none; } }
+    .theme-toggle {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      width: 38px; height: 38px; border-radius: 10px; cursor: pointer; font-size: 1rem;
+      display: inline-flex; align-items: center; justify-content: center; flex: none;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .theme-toggle:hover { border-color: var(--accent); transform: translateY(-1px); }
+    @media (max-width: 760px) { nav .links { display: none; } }
 
     /* Hero */
     header.hero { padding: 72px 0 40px; }
     .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
-    .hero .role { margin-top: 8px; font-size: clamp(1.05rem, 3vw, 1.35rem); color: var(--accent); font-weight: 600; }
-    .hero p.lead { margin-top: 18px; max-width: 640px; color: var(--text-soft); font-size: 1.05rem; }
-    .now { margin-top: 20px; display: grid; gap: 6px; max-width: 640px; }
+    .hero .role { margin-top: 10px; font-size: clamp(1rem, 3vw, 1.3rem); color: var(--accent); font-weight: 600; }
+    .hero p.lead { margin-top: 18px; max-width: 680px; color: var(--text-soft); font-size: 1.05rem; }
+    .now { margin-top: 20px; display: grid; gap: 6px; max-width: 680px; }
     .now .row { display: flex; gap: 10px; align-items: flex-start; color: var(--text-soft); font-size: 0.98rem; }
     .now .row span.ic { flex: none; }
     .cta { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
     .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; transition: transform .15s ease; }
     .btn:hover { text-decoration: none; transform: translateY(-2px); }
-    .btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
-    .btn-ghost { border: 1px solid var(--border); color: var(--text); background: var(--bg-soft); }
+    .btn-primary { background: var(--btn); color: var(--btn-text); box-shadow: var(--shadow); }
+    .btn-ghost { border: 1px solid var(--border); color: var(--text); background: var(--card); }
 
     /* Sections */
     section { padding: 38px 0; }
@@ -98,39 +125,53 @@
     /* Experience */
     .timeline { display: grid; gap: 16px; }
     .timeline .card { display: grid; gap: 6px; }
-    .timeline .top { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-    .timeline .title { font-weight: 700; }
-    .timeline .company { color: var(--accent-2); font-weight: 600; font-size: 0.9rem; }
+    .timeline .top { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+    .timeline .title { font-weight: 700; font-size: 1.05rem; }
     .timeline .period { color: var(--text-soft); font-size: 0.85rem; white-space: nowrap; }
-    .timeline .desc { color: var(--text-soft); font-size: 0.95rem; }
+    .role-clients { display: grid; gap: 14px; margin-top: 8px; }
+    .client { border-left: 2px solid var(--border); padding-left: 14px; }
+    .client .c-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; }
+    .client .c-name { font-weight: 600; }
+    .client .c-role { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+    .client .c-period { color: var(--text-soft); font-size: 0.8rem; white-space: nowrap; }
+    .client ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 5px; }
+    .client ul li { color: var(--text-soft); font-size: 0.92rem; }
+    .client ul li::marker { color: var(--accent); }
 
     /* Skills */
     .skill-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
     .skill-groups .card h3 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-soft); margin-bottom: 12px; }
     .tags { display: flex; flex-wrap: wrap; gap: 8px; }
-    .tag { font-size: 0.85rem; padding: 6px 12px; border-radius: 8px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); }
-
-    /* Certs */
-    .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
-    .cert { display: flex; align-items: center; gap: 12px; }
-    .cert .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); flex: none; }
+    .tag { font-size: 0.85rem; padding: 6px 12px; border-radius: 8px; background: var(--bg); border: 1px solid var(--border); color: var(--text); }
 
     /* Work / Projects */
     .work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
     .work-grid .card { display: flex; flex-direction: column; gap: 10px; }
     .work-grid .p-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
     .work-grid .p-title { font-weight: 700; font-size: 1.05rem; }
-    .pill { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 10px; border-radius: 999px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #06121f; }
+    .pill { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 4px 10px; border-radius: 999px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: var(--pill-text); }
     .work-grid .p-sub { color: var(--text-soft); font-size: 0.85rem; margin-top: -4px; }
     .work-grid ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; }
     .work-grid ul li { color: var(--text-soft); font-size: 0.92rem; }
     .work-grid ul li::marker { color: var(--accent); }
-    .work-grid.span-full { grid-template-columns: 1fr; }
+
+    /* Certs */
+    .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+    .cert { display: flex; align-items: baseline; gap: 12px; }
+    .cert .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); flex: none; position: relative; top: 5px; }
 
     /* Badges */
     .badge-grid { display: flex; flex-wrap: wrap; gap: 14px; }
     .badge-grid img { width: 92px; height: 92px; object-fit: contain; transition: transform .15s ease; }
     .badge-grid img:hover { transform: scale(1.08); }
+
+    /* Education */
+    .edu { display: grid; gap: 14px; }
+    .edu .card { display: grid; gap: 4px; }
+    .edu .e-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: baseline; }
+    .edu .e-degree { font-weight: 700; }
+    .edu .e-meta { color: var(--text-soft); font-size: 0.85rem; white-space: nowrap; }
+    .edu .e-inst { color: var(--accent); font-size: 0.92rem; }
 
     /* Contact */
     .contact-links { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -144,13 +185,16 @@
   <nav>
     <div class="container">
       <span class="brand">Subbarayudu Chakali</span>
-      <div class="links">
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#work">Work</a>
-        <a href="#certs">Certifications</a>
-        <a href="#badges">Badges</a>
-        <a href="#contact">Contact</a>
+      <div class="nav-right">
+        <div class="links">
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#work">Work</a>
+          <a href="#certs">Certifications</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark / light theme">🌙</button>
       </div>
     </div>
   </nav>
@@ -158,13 +202,17 @@
   <header class="hero">
     <div class="container">
       <h1>Hi, I'm Subbarayudu Chakali 👋</h1>
-      <div class="role">Software Engineer · Chennai, India</div>
+      <div class="role">Full Stack · DevSecOps · Multi-Cloud · Machine Learning</div>
       <p class="lead">
-        I build backend and cloud systems, and I'm increasingly focused on Generative AI and Machine Learning.
+        Experienced polyglot Full Stack Engineer with 5+ years building and deploying enterprise
+        applications across multi-cloud platforms — especially Amazon Web Services (AWS) and
+        Google Cloud Platform (GCP). Actively using generative-AI tools like GitHub Copilot and
+        AWS CodeWhisperer to boost coding efficiency, with a growing interest in machine learning
+        and applying AI-driven insights to improve application functionality and performance.
       </p>
       <div class="now">
-        <div class="row"><span class="ic">💼</span> Working as a Software Engineer in Chennai, India.</div>
-        <div class="row"><span class="ic">🎓</span> Studying M.Tech in Artificial Intelligence &amp; Machine Learning at BITS Pilani (WILP).</div>
+        <div class="row"><span class="ic">💼</span> Product Specialist — Technical at Cognizant, based in India.</div>
+        <div class="row"><span class="ic">🎓</span> Pursuing M.Tech in Artificial Intelligence &amp; Machine Learning at BITS Pilani (WILP).</div>
         <div class="row"><span class="ic">🌱</span> Learning Generative AI, Prompt Engineering and Machine Learning.</div>
       </div>
       <div class="cta">
@@ -177,32 +225,85 @@
   <main>
     <section id="experience">
       <div class="container">
-        <h2>Experience Journey</h2>
+        <h2>Experience</h2>
         <div class="timeline">
+
           <div class="card">
             <div class="top">
-              <span class="title">Product Specialist — Technical</span>
+              <span class="title">Product Specialist — Technical · Cognizant</span>
               <span class="period">January 2023 — Present</span>
             </div>
-            <span class="company">Cognizant · Chennai, Tamil Nadu, India</span>
-            <span class="desc">Generative AI (Currently Learning), AWS AI ML and Security Services, Python, Power Platform, Postgres</span>
+            <div class="role-clients">
+              <div class="client">
+                <div class="c-top">
+                  <span class="c-name">The Coca-Cola Company <span class="c-role">· CDK + DevOps Engineer</span></span>
+                  <span class="c-period">Sep 2025 — Present</span>
+                </div>
+                <ul>
+                  <li>Designed and implemented a complete DevOps lifecycle for building and deploying diverse applications on Google Cloud Platform (GCP).</li>
+                  <li>Redesigned and optimized CI/CD pipelines to support a seamless migration from AWS to GCP, ensuring scalability and reliability.</li>
+                  <li>Led the Jenkins migration from AWS to GCP — infrastructure setup, shared pipeline files, configuration management, and job orchestration.</li>
+                  <li>Integrated security &amp; quality gates by embedding SAST, DAST, and multiple testing frameworks into the CI/CD pipeline.</li>
+                  <li>Prepared a comprehensive AWS application inventory by analysing CDK + JavaScript code to support accurate infrastructure provisioning.</li>
+                </ul>
+              </div>
+              <div class="client">
+                <div class="c-top">
+                  <span class="c-name">BNY Mellon Corporation <span class="c-role">· Java Backend Developer</span></span>
+                  <span class="c-period">Mar 2025 — Sep 2025</span>
+                </div>
+                <ul>
+                  <li>Migrated legacy DB2 stored procedures to Oracle SQL and implemented Java backend services using MyBatis for efficient query execution and database interaction.</li>
+                </ul>
+              </div>
+              <div class="client">
+                <div class="c-top">
+                  <span class="c-name">Liberty Mutual Insurance Company <span class="c-role">· Jr Software Engineer</span></span>
+                  <span class="c-period">Jan 2023 — Feb 2025</span>
+                </div>
+                <ul>
+                  <li>Independently executed an AWS account migration and PostgreSQL RDS migration — infrastructure setup, data transfer, and validation — while ensuring seamless integration with custom permission boundaries and security compliance.</li>
+                </ul>
+              </div>
+            </div>
           </div>
+
           <div class="card">
             <div class="top">
-              <span class="title">Programmer Analyst</span>
-              <span class="period">January 2022 — December 2023 (1 year)</span>
+              <span class="title">Programmer Analyst · Cognizant</span>
+              <span class="period">Jan 2022 — Dec 2022</span>
             </div>
-            <span class="company">Cognizant · Chennai, Tamil Nadu, India</span>
-            <span class="desc">Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB, Insurance Domain</span>
+            <div class="role-clients">
+              <div class="client">
+                <div class="c-top">
+                  <span class="c-name">Liberty Mutual Insurance Company</span>
+                </div>
+                <ul>
+                  <li>New Relic to Datadog transition.</li>
+                  <li>Java Full Stack Engineer Accreditation program.</li>
+                </ul>
+              </div>
+            </div>
           </div>
+
           <div class="card">
             <div class="top">
-              <span class="title">Programmer Analyst Trainee</span>
-              <span class="period">January 2021 — December 2021 (1 year)</span>
+              <span class="title">Programmer Analyst Trainee · Cognizant</span>
+              <span class="period">Dec 2020 — Dec 2021</span>
             </div>
-            <span class="company">Cognizant · Chennai, Tamil Nadu, India</span>
-            <span class="desc">Java, Maven, Spring Framework, MySQL, Web Design and Development, Agile Development, SDLC</span>
+            <div class="role-clients">
+              <div class="client">
+                <div class="c-top">
+                  <span class="c-name">Liberty Mutual Insurance Company <span class="c-role">· Java Full Stack Engineer Training program</span></span>
+                </div>
+                <ul>
+                  <li>Duck Creek Claims Configuration and AWS Cloud, following Agile development.</li>
+                  <li>Team Lead of the Full Stack Engineer training batch.</li>
+                </ul>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -212,65 +313,54 @@
         <h2>Technical Skills</h2>
         <div class="skill-groups">
           <div class="card">
-            <h3>Languages</h3>
+            <h3>Programming Languages</h3>
             <div class="tags">
-              <span class="tag">Python</span><span class="tag">Java</span>
-              <span class="tag">Kotlin</span><span class="tag">C</span>
+              <span class="tag">Java</span><span class="tag">Python</span>
             </div>
           </div>
           <div class="card">
-            <h3>Databases</h3>
+            <h3>Machine Learning</h3>
             <div class="tags">
-              <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
-              <span class="tag">MongoDB</span><span class="tag">DynamoDB</span>
+              <span class="tag">Natural Language Processing</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">Prompt Engineering</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Cloud &amp; Platforms</h3>
+            <div class="tags">
+              <span class="tag">Amazon Web Services (AWS)</span>
+              <span class="tag">Google Cloud Platform</span>
+              <span class="tag">Microsoft Azure</span>
+              <span class="tag">Microsoft Power Platform</span>
             </div>
           </div>
           <div class="card">
             <h3>DevSecOps</h3>
             <div class="tags">
               <span class="tag">Git</span><span class="tag">GitHub</span>
-              <span class="tag">Maven</span><span class="tag">Gradle</span>
-              <span class="tag">Bamboo</span><span class="tag">GitHub Actions</span>
-              <span class="tag">GitLab CI</span><span class="tag">Jenkins</span>
-              <span class="tag">Docker</span><span class="tag">Datadog</span>
-              <span class="tag">Splunk</span><span class="tag">OWASP</span>
-              <span class="tag">JUnit5</span><span class="tag">SonarQube</span>
-              <span class="tag">Codacy</span><span class="tag">Node.js</span>
-              <span class="tag">JSON</span><span class="tag">YAML</span>
-              <span class="tag">XML</span><span class="tag">Swagger</span>
-              <span class="tag">Wireshark</span><span class="tag">JWT</span>
+              <span class="tag">GitLab</span><span class="tag">Bitbucket</span>
+              <span class="tag">Jenkins</span><span class="tag">Bamboo</span>
+              <span class="tag">GitHub Actions</span><span class="tag">Splunk</span>
+              <span class="tag">CloudFormation</span><span class="tag">Serverless</span>
+              <span class="tag">CDK</span><span class="tag">Terraform</span>
+              <span class="tag">Datadog</span><span class="tag">Docker</span>
+              <span class="tag">Maven</span>
             </div>
           </div>
           <div class="card">
-            <h3>Platforms and Frameworks</h3>
+            <h3>Databases</h3>
             <div class="tags">
-              <span class="tag">AWS</span><span class="tag">Serverless</span>
-              <span class="tag">Spring</span><span class="tag">React</span>
-              <span class="tag">Bootstrap</span>
+              <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
+              <span class="tag">DynamoDB</span><span class="tag">MongoDB</span>
+              <span class="tag">CloudSQL</span>
             </div>
           </div>
           <div class="card">
-            <h3>User Interface</h3>
+            <h3>Frameworks</h3>
             <div class="tags">
-              <span class="tag">Figma</span><span class="tag">Adobe XD</span><span class="tag">Miro</span>
-            </div>
-          </div>
-          <div class="card">
-            <h3>IDE / Editors</h3>
-            <div class="tags">
-              <span class="tag">IntelliJ</span><span class="tag">PyCharm</span>
-              <span class="tag">Jupyter Notebook</span><span class="tag">Google CoLab</span>
-              <span class="tag">Eclipse</span>
-            </div>
-          </div>
-          <div class="card">
-            <h3>Other Tools</h3>
-            <div class="tags">
-              <span class="tag">Postman</span><span class="tag">Slack</span>
-              <span class="tag">Remedy</span><span class="tag">JIRA</span>
-              <span class="tag">Confluence</span><span class="tag">ChatGPT</span>
-              <span class="tag">AWS CodeWhisperer</span><span class="tag">GitHub Copilot</span>
-              <span class="tag">Streamlit</span>
+              <span class="tag">Spring Boot</span><span class="tag">JUnit5</span>
+              <span class="tag">Bootstrap</span><span class="tag">React</span>
             </div>
           </div>
         </div>
@@ -353,13 +443,19 @@
         <h2>Certifications</h2>
         <div class="card">
           <div class="certs">
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url" target="_blank" rel="noopener">AWS Certified Cloud Practitioner</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url" target="_blank" rel="noopener">AWS Certified AI Practitioner (Early Adopter)</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url" target="_blank" rel="noopener">AZ-900 Microsoft Azure Fundamentals</a></div>
-            <div class="cert"><span class="dot"></span><a href="https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49" target="_blank" rel="noopener">PL-900 Microsoft Power Platform Fundamentals</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url" target="_blank" rel="noopener">AWS Certified Cloud Practitioner (CLF-C01)</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url" target="_blank" rel="noopener">AWS Certified AI Practitioner</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url" target="_blank" rel="noopener">Microsoft Certified: Azure Fundamentals (AZ-900)</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49" target="_blank" rel="noopener">Microsoft Certified: Power Platform Fundamentals (PL-900)</a></div>
             <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/41daf202-1db7-4654-bf87-182c052b76bf/public_url" target="_blank" rel="noopener">GitHub Foundations</a></div>
             <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/f59dc4b7-5c7b-4f7d-8b7d-b216d1a96e9f/public_url" target="_blank" rel="noopener">GitHub Actions</a></div>
             <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/8b14c6b7-fc99-47b4-b5ef-c49da4e6a735/public_url" target="_blank" rel="noopener">GitHub Copilot</a></div>
+            <div class="cert"><span class="dot"></span>AWS Knowledge: Cloud Essentials</div>
+            <div class="cert"><span class="dot"></span>AWS Partner: Generative AI Essentials</div>
+            <div class="cert"><span class="dot"></span>Certified GenAI Associate (Fundamentals)</div>
+            <div class="cert"><span class="dot"></span>Certified Java Prompt Developer — Prompt Engineering</div>
+            <div class="cert"><span class="dot"></span>AWS CodeWhisperer — AI-Assisted Code Companion</div>
+            <div class="cert"><span class="dot"></span>MongoDB SI Associate</div>
           </div>
         </div>
       </div>
@@ -388,11 +484,52 @@
       </div>
     </section>
 
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="edu">
+          <div class="card">
+            <div class="e-top">
+              <span class="e-degree">M.Tech — Artificial Intelligence &amp; Machine Learning</span>
+              <span class="e-meta">In Progress</span>
+            </div>
+            <span class="e-inst">Birla Institute of Technology and Sciences (BITS) Pilani — WILP</span>
+          </div>
+          <div class="card">
+            <div class="e-top">
+              <span class="e-degree">B.Tech — Computer Science &amp; Engineering</span>
+              <span class="e-meta">2016 — 2020 · 8.23 CGPA</span>
+            </div>
+            <span class="e-inst">Vaagdevi Institute of Technology and Sciences (VITS), Proddutur</span>
+          </div>
+          <div class="card">
+            <div class="e-top">
+              <span class="e-degree">Intermediate (MPC)</span>
+              <span class="e-meta">2014 — 2016 · 89%</span>
+            </div>
+            <span class="e-inst">Govt Junior College for Boys, Jammalamadugu</span>
+          </div>
+          <div class="card">
+            <div class="e-top">
+              <span class="e-degree">SSC</span>
+              <span class="e-meta">2014 · 8.2 CGPA</span>
+            </div>
+            <span class="e-inst">PR Govt High School, Jammalamadugu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
       <div class="container">
         <h2>Contact me</h2>
+        <p class="lead" style="margin-top:-8px;margin-bottom:18px;">
+          Ready to join forces with like-minded pros &amp; make a positive impact.
+        </p>
         <div class="contact-links">
-          <a href="mailto:csubbu141@gmail.com">✉️ Email</a>
+          <a href="mailto:csubbu141@gmail.com">✉️ csubbu141@gmail.com</a>
+          <a href="tel:+916303605176">📞 +91 63036 05176</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Jammalamadugu%2C+Kadapa%2C+Andhra+Pradesh" target="_blank" rel="noopener">📍 Jammalamadugu, Kadapa, AP</a>
           <a href="https://in.linkedin.com/in/subbarayudu-chakali" target="_blank" rel="noopener">💼 LinkedIn</a>
           <a href="https://github.com/subbarayudu-chakali" target="_blank" rel="noopener">🐙 GitHub</a>
           <a href="https://twitter.com/subbarayudu_c_" target="_blank" rel="noopener">🐦 Twitter / X</a>
@@ -409,6 +546,23 @@
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('themeToggle');
+      function sync() { btn.textContent = root.getAttribute('data-theme') === 'dark' ? '🌙' : '☀️'; }
+      sync();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        sync();
+      });
+    })();
+  </script>
 </body>
 </html>
