@@ -33,11 +33,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Prepare site (PDF only)
-        run: |
-          # Convert README.md to HTML for GitHub Pages home
-          npx --yes marked@^12 README.md > index.html
-          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,22 +1,324 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Resume</title>
-    <style>
-      html, body { height: 100%; margin: 0; }
-      .pdf { width: 100%; height: 100vh; border: 0; }
-    </style>
-  </head>
-  <body>
-    <!-- Displays the PDF directly -->
-    <iframe class="pdf" src="./resources/resume.pdf"></iframe>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subbarayudu Chakali — Software Engineer</title>
+  <meta name="description" content="Subbarayudu Chakali — Software Engineer in Chennai, India. Java, Python, Cloud (AWS/Azure) and AI/ML. M.Tech AI & ML, BITS Pilani." />
 
-    <!-- Fallback download link (shown if iframe/PDF viewer is blocked) -->
-    <p>
-      If the PDF doesn't display:
-      <a href="./resources/resume.pdf">Download resume</a>
-    </p>
-  </body>
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Subbarayudu Chakali — Software Engineer" />
+  <meta property="og:description" content="Software Engineer specializing in Java, Python, Cloud and AI/ML." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://subbarayudu-chakali.dev/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --bg-soft: #121826;
+      --card: #161d2e;
+      --border: #232c40;
+      --text: #e6ebf5;
+      --text-soft: #9aa6bf;
+      --accent: #6ea8fe;
+      --accent-2: #7ee0c0;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      --radius: 16px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fc;
+        --bg-soft: #ffffff;
+        --card: #ffffff;
+        --border: #e5e9f2;
+        --text: #1a2233;
+        --text-soft: #5a6684;
+        --accent: #2f6fed;
+        --accent-2: #12a37a;
+        --shadow: 0 10px 30px rgba(20, 30, 60, 0.08);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 940px; margin: 0 auto; padding: 0 20px; }
+
+    /* Nav */
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      background: color-mix(in srgb, var(--bg) 85%, transparent);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .container { display: flex; align-items: center; justify-content: space-between; height: 62px; }
+    nav .brand { font-weight: 800; letter-spacing: -0.02em; }
+    nav .links { display: flex; gap: 22px; }
+    nav .links a { color: var(--text-soft); font-size: 0.92rem; font-weight: 500; }
+    nav .links a:hover { color: var(--text); text-decoration: none; }
+    @media (max-width: 680px) { nav .links { display: none; } }
+
+    /* Hero */
+    header.hero { padding: 72px 0 40px; }
+    .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
+    .hero .role { margin-top: 8px; font-size: clamp(1.05rem, 3vw, 1.35rem); color: var(--accent); font-weight: 600; }
+    .hero p.lead { margin-top: 18px; max-width: 640px; color: var(--text-soft); font-size: 1.05rem; }
+    .now { margin-top: 20px; display: grid; gap: 6px; max-width: 640px; }
+    .now .row { display: flex; gap: 10px; align-items: flex-start; color: var(--text-soft); font-size: 0.98rem; }
+    .now .row span.ic { flex: none; }
+    .cta { margin-top: 28px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; transition: transform .15s ease; }
+    .btn:hover { text-decoration: none; transform: translateY(-2px); }
+    .btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow); }
+    .btn-ghost { border: 1px solid var(--border); color: var(--text); background: var(--bg-soft); }
+
+    /* Sections */
+    section { padding: 38px 0; }
+    section h2 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 22px; display: flex; align-items: center; gap: 10px; }
+    section h2::before { content: ""; width: 22px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
+
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--shadow); }
+
+    /* Experience */
+    .timeline { display: grid; gap: 16px; }
+    .timeline .card { display: grid; gap: 6px; }
+    .timeline .top { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .timeline .title { font-weight: 700; }
+    .timeline .company { color: var(--accent-2); font-weight: 600; font-size: 0.9rem; }
+    .timeline .period { color: var(--text-soft); font-size: 0.85rem; white-space: nowrap; }
+    .timeline .desc { color: var(--text-soft); font-size: 0.95rem; }
+
+    /* Skills */
+    .skill-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+    .skill-groups .card h3 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-soft); margin-bottom: 12px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag { font-size: 0.85rem; padding: 6px 12px; border-radius: 8px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); }
+
+    /* Certs */
+    .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .cert { display: flex; align-items: center; gap: 12px; }
+    .cert .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); flex: none; }
+
+    /* Badges */
+    .badge-grid { display: flex; flex-wrap: wrap; gap: 14px; }
+    .badge-grid img { width: 92px; height: 92px; object-fit: contain; transition: transform .15s ease; }
+    .badge-grid img:hover { transform: scale(1.08); }
+
+    /* Contact */
+    .contact-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .contact-links a { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 10px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-weight: 500; font-size: 0.9rem; }
+    .contact-links a:hover { border-color: var(--accent); text-decoration: none; }
+
+    footer { padding: 40px 0 60px; text-align: center; color: var(--text-soft); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <span class="brand">Subbarayudu Chakali</span>
+      <div class="links">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certs">Certifications</a>
+        <a href="#badges">Badges</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm Subbarayudu Chakali 👋</h1>
+      <div class="role">Software Engineer · Chennai, India</div>
+      <p class="lead">
+        I build backend and cloud systems, and I'm increasingly focused on Generative AI and Machine Learning.
+      </p>
+      <div class="now">
+        <div class="row"><span class="ic">💼</span> Working as a Software Engineer in Chennai, India.</div>
+        <div class="row"><span class="ic">🎓</span> Studying M.Tech in Artificial Intelligence &amp; Machine Learning at BITS Pilani (WILP).</div>
+        <div class="row"><span class="ic">🌱</span> Learning Generative AI, Prompt Engineering and Machine Learning.</div>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="resources/resume_subbarayudu_chakali_30-1-2026.pdf" target="_blank" rel="noopener">Download résumé</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="experience">
+      <div class="container">
+        <h2>Experience Journey</h2>
+        <div class="timeline">
+          <div class="card">
+            <div class="top">
+              <span class="title">Product Specialist — Technical</span>
+              <span class="period">Jan 2023 — Present</span>
+            </div>
+            <span class="company">Cognizant · Chennai, India</span>
+            <span class="desc">Generative AI (currently learning), AWS AI/ML &amp; Security Services, Python, Power Platform, Postgres.</span>
+          </div>
+          <div class="card">
+            <div class="top">
+              <span class="title">Programmer Analyst</span>
+              <span class="period">Jan 2022 — Dec 2023</span>
+            </div>
+            <span class="company">Cognizant · Chennai, India</span>
+            <span class="desc">Microsoft Azure, DevOps, Git, Microservices, AWS, Kotlin, REST, MongoDB — Insurance domain.</span>
+          </div>
+          <div class="card">
+            <div class="top">
+              <span class="title">Programmer Analyst Trainee</span>
+              <span class="period">Jan 2021 — Dec 2021</span>
+            </div>
+            <span class="company">Cognizant · Chennai, India</span>
+            <span class="desc">Java, Maven, Spring Framework, MySQL, web design &amp; development, Agile / SDLC.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skill-groups">
+          <div class="card">
+            <h3>Languages</h3>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">Java</span>
+              <span class="tag">Kotlin</span><span class="tag">C</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Databases</h3>
+            <div class="tags">
+              <span class="tag">MySQL</span><span class="tag">PostgreSQL</span>
+              <span class="tag">MongoDB</span><span class="tag">DynamoDB</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Platforms &amp; Frameworks</h3>
+            <div class="tags">
+              <span class="tag">AWS</span><span class="tag">Serverless</span>
+              <span class="tag">Spring</span><span class="tag">React</span>
+              <span class="tag">Bootstrap</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>DevSecOps</h3>
+            <div class="tags">
+              <span class="tag">Git</span><span class="tag">GitHub Actions</span>
+              <span class="tag">GitLab CI</span><span class="tag">Jenkins</span>
+              <span class="tag">Docker</span><span class="tag">Maven</span>
+              <span class="tag">Gradle</span><span class="tag">SonarQube</span>
+              <span class="tag">OWASP</span><span class="tag">JUnit 5</span>
+              <span class="tag">Datadog</span><span class="tag">Splunk</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>UI &amp; Design</h3>
+            <div class="tags">
+              <span class="tag">Figma</span><span class="tag">Adobe XD</span><span class="tag">Miro</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>IDEs &amp; Editors</h3>
+            <div class="tags">
+              <span class="tag">IntelliJ IDEA</span><span class="tag">PyCharm</span>
+              <span class="tag">Jupyter</span><span class="tag">Google Colab</span>
+              <span class="tag">Eclipse</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Other Tools</h3>
+            <div class="tags">
+              <span class="tag">Postman</span><span class="tag">JIRA</span>
+              <span class="tag">Confluence</span><span class="tag">Slack</span>
+              <span class="tag">ChatGPT</span><span class="tag">GitHub Copilot</span>
+              <span class="tag">Streamlit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="card">
+          <div class="certs">
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/62900457-e8b0-4032-a2ea-c938088fd784/public_url" target="_blank" rel="noopener">AWS Certified Cloud Practitioner</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/e43c6fa6-7731-4346-9376-2df8672a060a/public_url" target="_blank" rel="noopener">AWS Certified AI Practitioner (Early Adopter)</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/d57d7a2d-3d84-4c02-bf04-6d015b4d5fe9/public_url" target="_blank" rel="noopener">AZ-900 Microsoft Azure Fundamentals</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://learn.microsoft.com/api/credentials/share/en-us/ChakaliSubbarayuduCognizant-3715/3EE8BEF23F9F5310?sharingId=2E9CCBF6F3890D49" target="_blank" rel="noopener">PL-900 Microsoft Power Platform Fundamentals</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/41daf202-1db7-4654-bf87-182c052b76bf/public_url" target="_blank" rel="noopener">GitHub Foundations</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/f59dc4b7-5c7b-4f7d-8b7d-b216d1a96e9f/public_url" target="_blank" rel="noopener">GitHub Actions</a></div>
+            <div class="cert"><span class="dot"></span><a href="https://www.credly.com/badges/8b14c6b7-fc99-47b4-b5ef-c49da4e6a735/public_url" target="_blank" rel="noopener">GitHub Copilot</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="badges">
+      <div class="container">
+        <h2>Badges</h2>
+        <div class="card">
+          <div class="badge-grid">
+            <img src="resources/badges/aws-certified-ai-practitioner-early-adopter.png" alt="AWS Certified AI Practitioner (Early Adopter)" loading="lazy" />
+            <img src="resources/badges/aws-knowledge-cloud-essentials.png" alt="AWS Knowledge: Cloud Essentials" loading="lazy" />
+            <img src="resources/badges/aws-partner-generative-ai-essentials.png" alt="AWS Partner: Generative AI Essentials" loading="lazy" />
+            <img src="resources/badges/building-genai-apps-mongodb.png" alt="Building GenAI Apps with MongoDB" loading="lazy" />
+            <img src="resources/badges/deploying-evaluating-genai-apps-mongodb.png" alt="Deploying & Evaluating GenAI Apps with MongoDB" loading="lazy" />
+            <img src="resources/badges/code-companion-githubcopilot.png" alt="Code Companion: GitHub Copilot" loading="lazy" />
+            <img src="resources/badges/code-companion-qdeveloper-java.png" alt="Code Companion: Q Developer (Java)" loading="lazy" />
+            <img src="resources/badges/code-companion-qdeveloper-python.png" alt="Code Companion: Q Developer (Python)" loading="lazy" />
+            <img src="resources/badges/genai-fundamentals.png" alt="GenAI Fundamentals" loading="lazy" />
+            <img src="resources/badges/project-pivot-fundamentals.png" alt="Project Pivot Fundamentals" loading="lazy" />
+            <img src="resources/badges/prompt-engineering-java.png" alt="Prompt Engineering (Java)" loading="lazy" />
+            <img src="resources/badges/Prompt%20Engineering.png" alt="Prompt Engineering" loading="lazy" />
+            <img src="resources/badges/site-reliability.png" alt="Site Reliability Engineering" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact me</h2>
+        <div class="contact-links">
+          <a href="mailto:csubbu141@gmail.com">✉️ Email</a>
+          <a href="https://in.linkedin.com/in/subbarayudu-chakali" target="_blank" rel="noopener">💼 LinkedIn</a>
+          <a href="https://github.com/subbarayudu-chakali" target="_blank" rel="noopener">🐙 GitHub</a>
+          <a href="https://twitter.com/subbarayudu_c_" target="_blank" rel="noopener">🐦 Twitter / X</a>
+          <a href="https://instagram.com/subbarayudu_chakali" target="_blank" rel="noopener">📸 Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=100024064763545" target="_blank" rel="noopener">👥 Facebook</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Subbarayudu Chakali · Built with plain HTML &amp; CSS, hosted on GitHub Pages.
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
 </html>
