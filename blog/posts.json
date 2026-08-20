@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "2026-08-20-bias-variance-tradeoff",
+    "title": "The Bias–Variance Tradeoff, Explained Simply",
+    "date": "2026-08-20",
+    "tags": ["Machine Learning", "Fundamentals", "M.Tech Notes"],
+    "excerpt": "My notes on one of the most important ideas in ML: why models underfit or overfit, and how the bias–variance tradeoff helps you reason about it."
+  }
+]

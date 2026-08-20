@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Subbarayudu Chakali</title>
+  <meta name="description" content="A learning note on AI & Machine Learning by Subbarayudu Chakali." />
+  <meta property="og:type" content="article" />
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="blog.css" />
+
+  <!-- Markdown + syntax highlighting + math (loaded from CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css" id="hljs-theme" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="brand" href="../index.html">Subbarayudu Chakali</a>
+      <div class="nav-right">
+        <div class="links">
+          <a href="../index.html">Portfolio</a>
+          <a href="index.html">Blog</a>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark / light theme">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="post-head">
+    <div class="container">
+      <a class="back-link" href="index.html">← All posts</a>
+      <h1 id="postTitle">Loading…</h1>
+      <div class="p-meta" id="postMeta"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article class="prose" id="postBody"></article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Subbarayudu Chakali · Built with plain HTML &amp; CSS, hosted on GitHub Pages.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.9/dist/purify.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle — also swaps the code-highlight theme to match
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('themeToggle');
+      var hljsTheme = document.getElementById('hljs-theme');
+      var DARK = 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.min.css';
+      var LIGHT = 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github.min.css';
+      function sync() {
+        var dark = root.getAttribute('data-theme') === 'dark';
+        btn.textContent = dark ? '🌙' : '☀️';
+        hljsTheme.href = dark ? DARK : LIGHT;
+      }
+      sync();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        sync();
+      });
+    })();
+
+    function formatDate(iso) {
+      var parts = String(iso).split('-');
+      if (parts.length !== 3) return iso;
+      var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      var d = new Date(parts[0], parts[1] - 1, parts[2]);
+      return d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear();
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    function getParam(name) {
+      return new URLSearchParams(window.location.search).get(name);
+    }
+
+    function fail(msg) {
+      document.getElementById('postTitle').textContent = 'Post not found';
+      document.getElementById('postBody').innerHTML =
+        '<p>' + escapeHtml(msg) + '</p><p><a href="index.html">← Back to all posts</a></p>';
+    }
+
+    var slug = getParam('p');
+    if (!slug || !/^[a-z0-9\-]+$/i.test(slug)) {
+      fail('No valid post specified.');
+    } else {
+      // Configure marked to highlight code with highlight.js
+      marked.setOptions({
+        highlight: function (code, lang) {
+          try {
+            if (lang && hljs.getLanguage(lang)) return hljs.highlight(code, { language: lang }).value;
+            return hljs.highlightAuto(code).value;
+          } catch (e) { return escapeHtml(code); }
+        }
+      });
+
+      // Fetch metadata (from manifest) and the markdown body in parallel
+      Promise.all([
+        fetch('posts.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : []; }),
+        fetch('posts/' + slug + '.md', { cache: 'no-cache' }).then(function (r) {
+          if (!r.ok) throw new Error('Markdown file returned ' + r.status);
+          return r.text();
+        })
+      ]).then(function (results) {
+        var posts = results[0], md = results[1];
+        var meta = (Array.isArray(posts) ? posts : []).find(function (p) { return p.slug === slug; }) || {};
+
+        var title = meta.title || (md.match(/^#\s+(.+)$/m) || [])[1] || 'Untitled';
+        document.title = title + ' — Subbarayudu Chakali';
+        document.getElementById('postTitle').textContent = title;
+
+        // Reading time (~200 wpm)
+        var words = md.trim().split(/\s+/).length;
+        var mins = Math.max(1, Math.round(words / 200));
+
+        var metaBits = [];
+        if (meta.date) metaBits.push('<span>' + formatDate(meta.date) + '</span>');
+        metaBits.push('<span class="dot-sep">' + mins + ' min read</span>');
+        (meta.tags || []).forEach(function (t) {
+          metaBits.push('<span class="tag">' + escapeHtml(t) + '</span>');
+        });
+        document.getElementById('postMeta').innerHTML = metaBits.join('');
+
+        // If the body starts with an H1 matching the title, drop it (title already shown above)
+        var body = md.replace(/^﻿/, '').replace(/^#\s+.+\n+/, '');
+
+        var rawHtml = marked.parse(body);
+        var clean = window.DOMPurify
+          ? DOMPurify.sanitize(rawHtml, { ADD_ATTR: ['target'] })
+          : rawHtml;
+        var article = document.getElementById('postBody');
+        article.innerHTML = clean;
+
+        // Render math once KaTeX has loaded
+        function renderMath() {
+          if (window.renderMathInElement) {
+            renderMathInElement(article, {
+              delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false },
+                { left: '\\(', right: '\\)', display: false },
+                { left: '\\[', right: '\\]', display: true }
+              ],
+              throwOnError: false
+            });
+          } else {
+            setTimeout(renderMath, 120);
+          }
+        }
+        renderMath();
+      }).catch(function (err) {
+        fail('Couldn\'t load this post (' + err.message + '). If viewing from local disk, run a local server — see the blog README.');
+      });
+    }
+  </script>
+</body>
+</html>

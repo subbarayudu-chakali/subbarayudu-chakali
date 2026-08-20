@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Subbarayudu Chakali</title>
+  <meta name="description" content="Learning notes on Artificial Intelligence & Machine Learning, written while pursuing an M.Tech at BITS Pilani (WILP)." />
+
+  <meta property="og:title" content="Blog — Subbarayudu Chakali" />
+  <meta property="og:description" content="Learning notes on AI & Machine Learning from my M.Tech journey." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://subbarayudu-chakali.dev/blog/" />
+
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="brand" href="../index.html">Subbarayudu Chakali</a>
+      <div class="nav-right">
+        <div class="links">
+          <a href="../index.html">Portfolio</a>
+          <a href="index.html" class="active">Blog</a>
+        </div>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark / light theme">🌙</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <div class="container">
+      <h1>Blog</h1>
+      <p class="lead">
+        Learning notes from my M.Tech in Artificial Intelligence &amp; Machine Learning at
+        BITS Pilani (WILP) — concepts I'm studying, distilled in my own words. Written to
+        learn in public and to have something to look back on.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div id="postList" class="post-list">
+        <p class="empty">Loading posts…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Subbarayudu Chakali · Built with plain HTML &amp; CSS, hosted on GitHub Pages.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('themeToggle');
+      function sync() { btn.textContent = root.getAttribute('data-theme') === 'dark' ? '🌙' : '☀️'; }
+      sync();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        sync();
+      });
+    })();
+
+    // Format an ISO date (YYYY-MM-DD) as e.g. "20 Aug 2026"
+    function formatDate(iso) {
+      var parts = String(iso).split('-');
+      if (parts.length !== 3) return iso;
+      var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      var d = new Date(parts[0], parts[1] - 1, parts[2]);
+      return d.getDate() + ' ' + months[d.getMonth()] + ' ' + d.getFullYear();
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    // Load and render the post list
+    fetch('posts.json', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error('posts.json ' + r.status); return r.json(); })
+      .then(function (posts) {
+        var list = document.getElementById('postList');
+        if (!Array.isArray(posts) || posts.length === 0) {
+          list.innerHTML = '<p class="empty">No posts yet — check back soon.</p>';
+          return;
+        }
+        // Newest first
+        posts.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+        list.innerHTML = posts.map(function (p) {
+          var tags = (p.tags || []).map(function (t) {
+            return '<span class="tag">' + escapeHtml(t) + '</span>';
+          }).join('');
+          return '' +
+            '<a class="post-card" href="post.html?p=' + encodeURIComponent(p.slug) + '">' +
+              '<div class="p-title">' + escapeHtml(p.title) + '</div>' +
+              '<div class="p-meta"><span>' + formatDate(p.date) + '</span></div>' +
+              (p.excerpt ? '<div class="p-excerpt">' + escapeHtml(p.excerpt) + '</div>' : '') +
+              (tags ? '<div class="tag-row">' + tags + '</div>' : '') +
+            '</a>';
+        }).join('');
+      })
+      .catch(function (err) {
+        document.getElementById('postList').innerHTML =
+          '<p class="empty">Couldn\'t load posts (' + escapeHtml(err.message) + '). ' +
+          'If you\'re viewing this from your local disk, run a local server — see the blog README.</p>';
+      });
+  </script>
+</body>
+</html>
