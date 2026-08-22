@@ -54,5 +54,33 @@
     "date": "2026-08-22",
     "tags": ["DevSecOps", "Security", "DevOps", "Interview Prep"],
     "excerpt": "A DevSecOps interview guide — shift-left culture, SAST/DAST/SCA, secrets management, container and cloud security, software supply chain, and compliance as code."
+  },
+  {
+    "slug": "2026-08-22-prompt-engineering-interview-questions",
+    "title": "Prompt Engineering Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Prompt Engineering", "LLM", "GenAI", "Interview Prep"],
+    "excerpt": "An interview-ready guide to prompt engineering — few-shot and chain-of-thought, structured output, decoding parameters, evaluation, and prompt-injection defense."
+  },
+  {
+    "slug": "2026-08-22-agentic-ai-interview-questions",
+    "title": "Agentic AI Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Agentic AI", "LLM", "GenAI", "Interview Prep"],
+    "excerpt": "An agentic AI interview reference — the agent loop, ReAct and planning, tools and MCP, memory, multi-agent patterns, evaluation, and agent security."
+  },
+  {
+    "slug": "2026-08-22-rag-interview-questions",
+    "title": "RAG (Retrieval-Augmented Generation) Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["RAG", "LLM", "GenAI", "Interview Prep"],
+    "excerpt": "A RAG interview guide — chunking, embeddings, vector stores, hybrid search and reranking, advanced retrieval patterns, evaluation, and production concerns."
+  },
+  {
+    "slug": "2026-08-22-mlops-interview-questions",
+    "title": "MLOps Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["MLOps", "Machine Learning", "DevOps", "Interview Prep"],
+    "excerpt": "An MLOps interview reference — the ML lifecycle, data and feature management, experiment tracking, CI/CD/CT, deployment strategies, and drift monitoring."
   }
 ]
