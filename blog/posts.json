@@ -1,9 +1,16 @@
 [
   {
-    "slug": "2026-08-20-bias-variance-tradeoff",
-    "title": "The Bias–Variance Tradeoff, Explained Simply",
-    "date": "2026-08-20",
-    "tags": ["Machine Learning", "Fundamentals", "M.Tech Notes"],
-    "excerpt": "My notes on one of the most important ideas in ML: why models underfit or overfit, and how the bias–variance tradeoff helps you reason about it."
+    "slug": "2026-08-22-github-actions-interview-questions",
+    "title": "GitHub Actions Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["GitHub Actions", "CI/CD", "DevOps", "Interview Prep"],
+    "excerpt": "A practical, interview-ready reference for GitHub Actions — from core concepts (workflows, jobs, runners) to secrets, OIDC, reusable workflows, caching, and real-world troubleshooting."
+  },
+  {
+    "slug": "2026-08-22-gcp-interview-questions",
+    "title": "Google Cloud Platform (GCP) Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["GCP", "Cloud", "DevOps", "Interview Prep"],
+    "excerpt": "A broad GCP interview guide covering the resource hierarchy, IAM, compute, storage, networking, databases, data & ML, DevOps tooling, and cost — grouped by domain."
   }
 ]
