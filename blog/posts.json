@@ -12,5 +12,47 @@
     "date": "2026-08-22",
     "tags": ["GCP", "Cloud", "DevOps", "Interview Prep"],
     "excerpt": "A broad GCP interview guide covering the resource hierarchy, IAM, compute, storage, networking, databases, data & ML, DevOps tooling, and cost — grouped by domain."
+  },
+  {
+    "slug": "2026-08-22-terraform-interview-questions",
+    "title": "Terraform Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Terraform", "IaC", "DevOps", "Interview Prep"],
+    "excerpt": "An interview-ready Terraform reference — HCL basics, the plan/apply workflow, state and backends, modules, for_each vs count, provisioners, and safe refactoring."
+  },
+  {
+    "slug": "2026-08-22-docker-interview-questions",
+    "title": "Docker Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Docker", "Containers", "DevOps", "Interview Prep"],
+    "excerpt": "A practical Docker interview guide — images and layers, Dockerfiles, multi-stage builds, networking, volumes, Compose, security hardening, and troubleshooting."
+  },
+  {
+    "slug": "2026-08-22-kubernetes-interview-questions",
+    "title": "Kubernetes Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Kubernetes", "Containers", "DevOps", "Interview Prep"],
+    "excerpt": "A thorough Kubernetes interview reference — architecture, Pods and workloads, Services and networking, storage, scheduling, RBAC, probes, and day-2 operations."
+  },
+  {
+    "slug": "2026-08-22-networking-interview-questions",
+    "title": "Networking Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["Networking", "Fundamentals", "Interview Prep"],
+    "excerpt": "A solid networking interview guide — OSI/TCP-IP models, IP addressing and subnetting, TCP/UDP, routing, DNS, HTTP/TLS, load balancing, and hands-on troubleshooting."
+  },
+  {
+    "slug": "2026-08-22-devops-interview-questions",
+    "title": "DevOps Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["DevOps", "CI/CD", "SRE", "Interview Prep"],
+    "excerpt": "A broad DevOps interview reference — culture and DORA metrics, CI/CD and deployment strategies, IaC and config management, GitOps, observability, and SRE concepts."
+  },
+  {
+    "slug": "2026-08-22-devsecops-interview-questions",
+    "title": "DevSecOps Interview Questions & Answers",
+    "date": "2026-08-22",
+    "tags": ["DevSecOps", "Security", "DevOps", "Interview Prep"],
+    "excerpt": "A DevSecOps interview guide — shift-left culture, SAST/DAST/SCA, secrets management, container and cloud security, software supply chain, and compliance as code."
   }
 ]
