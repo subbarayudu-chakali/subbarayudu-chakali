@@ -1,5 +1,54 @@
 [
   {
+    "slug": "2026-08-25-aws-interview-questions",
+    "title": "Amazon Web Services (AWS) Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["AWS", "Cloud", "Interview Prep"],
+    "excerpt": "A broad, interview-ready AWS reference — global infrastructure, IAM & security, compute, storage, databases, networking, messaging, monitoring, cost optimization, and the Well-Architected Framework."
+  },
+  {
+    "slug": "2026-08-25-aws-devops-interview-questions",
+    "title": "AWS DevOps Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["AWS", "DevOps", "CI/CD", "Interview Prep"],
+    "excerpt": "An AWS DevOps interview guide — CodePipeline/CodeBuild/CodeDeploy, CloudFormation & CDK, Systems Manager, ECS/EKS, serverless deploys, observability, and pipeline security."
+  },
+  {
+    "slug": "2026-08-25-gcp-devops-interview-questions",
+    "title": "GCP DevOps Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["GCP", "DevOps", "CI/CD", "Interview Prep"],
+    "excerpt": "A GCP DevOps interview reference — Cloud Build & Cloud Deploy, Artifact Registry, Terraform, GKE & Cloud Run, GitOps with Config Sync, the Cloud Operations suite, and Workload Identity Federation."
+  },
+  {
+    "slug": "2026-08-25-nodejs-interview-questions",
+    "title": "Node.js Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["Node.js", "JavaScript", "Backend", "Interview Prep"],
+    "excerpt": "A practical Node.js interview guide — the event loop and async model, modules & npm, streams and buffers, HTTP/Express, error handling, clustering and worker threads, security, and testing."
+  },
+  {
+    "slug": "2026-08-25-java-interview-questions",
+    "title": "Java Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["Java", "JVM", "Backend", "Interview Prep"],
+    "excerpt": "A thorough core-Java interview reference — OOP, strings, the collections framework, generics, exceptions, JVM memory & GC, concurrency, and Java 8+ features like streams, records, and virtual threads."
+  },
+  {
+    "slug": "2026-08-25-springboot-interview-questions",
+    "title": "Spring Boot Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["Spring Boot", "Java", "Backend", "Interview Prep"],
+    "excerpt": "A Spring Boot interview guide — IoC & dependency injection, auto-configuration and starters, configuration & profiles, REST APIs, Spring Data JPA & transactions, Spring Security, Actuator, testing, and AOP."
+  },
+  {
+    "slug": "2026-08-25-python-interview-questions",
+    "title": "Python Interview Questions & Answers",
+    "date": "2026-08-25",
+    "tags": ["Python", "Programming", "Interview Prep"],
+    "excerpt": "A broad Python interview reference — data structures, functions & closures, OOP, iterators & generators, decorators & context managers, the GIL and concurrency, packaging & environments, and testing."
+  },
+  {
     "slug": "2026-08-22-github-actions-interview-questions",
     "title": "GitHub Actions Interview Questions & Answers",
     "date": "2026-08-22",
